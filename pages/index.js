@@ -27,81 +27,84 @@ const Accueil = (props) => {
             <span className="accueil-text03">
               Permis B, A1, A2, AM, Formation 125 cm3, et Post-Permis
             </span>
-          </div>
-        </div>
-        <nav data-role="Header" className="accueil-navbar">
-          <div className="accueil-right-side">
-            <div className="accueil-links-container">
-              <span className="accueil-text04">Accueil</span>
-              <Link href="/formations">
-                <a className="accueil-link">Formations</a>
-              </Link>
-              <Link href="/preparation">
-                <a className="accueil-link01">Préparation Examen</a>
-              </Link>
-              <Link href="/apres-examen">
-                <a className="accueil-link02">
-                  <span>Après l&apos;examen</span>
-                  <br></br>
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className="accueil-container1">
-            <div data-role="BurgerMenu" className="accueil-burger-menu">
-              <svg viewBox="0 0 1024 1024" className="accueil-burger-menu">
-                <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
-                <path d="M810.667 426.667h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
-                <path d="M810.667 128h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
-              </svg>
-            </div>
-          </div>
-          <div data-role="MobileMenu" className="accueil-mobile-menu">
-            <div className="accueil-nav">
-              <div className="accueil-top">
-                <div data-role="CloseMobileMenu" className="accueil-close-menu">
-                  <svg viewBox="0 0 1024 1024" className="accueil-icon3">
-                    <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
-                  </svg>
-                </div>
-              </div>
-              <div className="accueil-right-side1">
-                <div className="accueil-links-container1">
-                  <Link href="/">
-                    <a className="accueil-link03">Accueil</a>
-                  </Link>
+            <nav data-role="Header" className="accueil-navbar">
+              <div className="accueil-right-side">
+                <div className="accueil-links-container">
+                  <span className="accueil-text04">Accueil</span>
                   <Link href="/formations">
-                    <a className="accueil-link04">Formations</a>
+                    <a className="accueil-link">Formations</a>
                   </Link>
                   <Link href="/preparation">
-                    <a className="accueil-link05">Avant l&apos;examen</a>
+                    <a className="accueil-link01">Préparation Examen</a>
                   </Link>
                   <Link href="/apres-examen">
-                    <a className="accueil-link06">Après l&apos;examen</a>
+                    <a className="accueil-link02">
+                      <span>Après l&apos;examen</span>
+                      <br></br>
+                    </a>
                   </Link>
                 </div>
               </div>
-            </div>
-            <div className="accueil-follow-container">
-              <span className="accueil-text07">Suivez nous</span>
-              <div className="accueil-icons-container">
-                <a
-                  href="https://www.facebook.com/autoecolelycee"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="accueil-link07"
-                >
-                  <svg
-                    viewBox="0 0 602.2582857142856 1024"
-                    className="accueil-icon5"
-                  >
-                    <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
+              <div className="accueil-container1">
+                <div data-role="BurgerMenu" className="accueil-burger-menu">
+                  <svg viewBox="0 0 1024 1024" className="accueil-burger-menu">
+                    <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
+                    <path d="M810.667 426.667h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
+                    <path d="M810.667 128h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
                   </svg>
-                </a>
+                </div>
               </div>
-            </div>
+              <div data-role="MobileMenu" className="accueil-mobile-menu">
+                <div className="accueil-nav">
+                  <div className="accueil-top">
+                    <div
+                      data-role="CloseMobileMenu"
+                      className="accueil-close-menu"
+                    >
+                      <svg viewBox="0 0 1024 1024" className="accueil-icon3">
+                        <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="accueil-right-side1">
+                    <div className="accueil-links-container1">
+                      <Link href="/">
+                        <a className="accueil-link03">Accueil</a>
+                      </Link>
+                      <Link href="/formations">
+                        <a className="accueil-link04">Formations</a>
+                      </Link>
+                      <Link href="/preparation">
+                        <a className="accueil-link05">Avant l&apos;examen</a>
+                      </Link>
+                      <Link href="/apres-examen">
+                        <a className="accueil-link06">Après l&apos;examen</a>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="accueil-follow-container">
+                  <span className="accueil-text07">Suivez nous</span>
+                  <div className="accueil-icons-container">
+                    <a
+                      href="https://www.facebook.com/autoecolelycee"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="accueil-link07"
+                    >
+                      <svg
+                        viewBox="0 0 602.2582857142856 1024"
+                        className="accueil-icon5"
+                      >
+                        <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </nav>
           </div>
-        </nav>
+        </div>
         <div id="main-section" className="accueil-main">
           <div className="accueil-container2">
             <span className="accueil-text08">
@@ -440,16 +443,18 @@ const Accueil = (props) => {
               font-size: 2.5rem;
             }
             .accueil-text03 {
+              font-style: normal;
               text-align: center;
+              font-weight: 600;
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
             }
             .accueil-navbar {
-              padding: 0px;
-              padding-top: var(--dl-space-space-doubleunit);
-              padding-left: var(--dl-space-space-doubleunit);
-              padding-right: var(--dl-space-space-doubleunit);
-              padding-bottom: var(--dl-space-space-doubleunit);
+              padding: var(--dl-space-space-halfunit);
+              padding-top: 0px;
+              padding-left: 0px;
+              padding-right: 0px;
+              padding-bottom: 0px;
             }
             .accueil-right-side {
               display: none;
@@ -465,9 +470,9 @@ const Accueil = (props) => {
             .accueil-container2 {
               width: auto;
               align-items: center;
-              padding-top: var(--dl-space-space-unit);
+              padding-top: var(--dl-space-space-doubleunit);
               flex-direction: column;
-              padding-bottom: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-doubleunit);
               justify-content: space-between;
             }
             .accueil-text08 {
@@ -533,7 +538,7 @@ const Accueil = (props) => {
               width: 100%;
               flex-wrap: wrap;
               align-self: center;
-              padding-top: var(--dl-space-space-unit);
+              padding-top: var(--dl-space-space-doubleunit);
               flex-direction: row;
               justify-content: center;
             }

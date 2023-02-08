@@ -417,7 +417,7 @@ const Preparation = (props) => {
             }
             .preparation-content-container {
               align-items: center;
-              padding-bottom: 8px;
+              padding-bottom: 0px;
             }
             .preparation-text {
               font-size: 2.5rem;
@@ -428,6 +428,7 @@ const Preparation = (props) => {
               padding-bottom: var(--dl-space-space-unit);
             }
             .preparation-navbar {
+              width: auto;
               padding: 0px;
             }
             .preparation-right-side {
@@ -437,11 +438,12 @@ const Preparation = (props) => {
               display: flex;
             }
             .preparation-main {
-              padding: var(--dl-space-space-doubleunit);
-              padding-top: 0px;
+              margin: 0px;
+              padding-top: var(--dl-space-space-doubleunit);
               padding-left: 0px;
               padding-right: 0px;
-              padding-bottom: 0px;
+              flex-direction: column;
+              padding-bottom: var(--dl-space-space-doubleunit);
             }
             .preparation-text09 {
               padding-top: var(--dl-space-space-unit);
@@ -454,11 +456,12 @@ const Preparation = (props) => {
           @media (max-width: 479px) {
             .preparation-top-container {
               width: auto;
-              height: 100%;
+              height: auto;
             }
             .preparation-content-container {
               width: auto;
               height: auto;
+              padding-bottom: 0px;
             }
             .preparation-image {
               height: auto;
@@ -481,6 +484,9 @@ const Preparation = (props) => {
               padding-top: 0px;
               padding-left: 0px;
               padding-right: 0px;
+            }
+            .preparation-main {
+              padding: var(--dl-space-space-doubleunit);
             }
             .preparation-follow-container1 {
               margin-left: 0px;

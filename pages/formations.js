@@ -477,6 +477,7 @@ const Formations = (props) => {
               display: flex;
             }
             .formations-main {
+              padding: var(--dl-space-space-doubleunit);
               padding-top: 0px;
               padding-left: 0px;
               padding-right: 0px;
@@ -517,10 +518,15 @@ const Formations = (props) => {
               padding-bottom: 0px;
             }
             .formations-main {
-              padding-top: 0px;
-              padding-left: 0px;
-              padding-right: 0px;
-              padding-bottom: 0px;
+              padding: var(--dl-space-space-unit);
+              padding-top: var(--dl-space-space-doubleunit);
+              padding-left: var(--dl-space-space-doubleunit);
+              padding-right: var(--dl-space-space-doubleunit);
+              padding-bottom: var(--dl-space-space-doubleunit);
+            }
+            .formations-cards-container {
+              margin-top: 0px;
+              margin-bottom: 0px;
             }
             .formations-follow-container1 {
               margin-left: 0px;

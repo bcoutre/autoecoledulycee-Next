@@ -28,81 +28,81 @@ const ApresExamen = (props) => {
               Permis B, A1, A2, AM, Formation 125 cm3, et Post-Permis
             </span>
           </div>
-        </div>
-        <nav data-role="Header" className="apres-examen-navbar">
-          <div className="apres-examen-right-side">
-            <div className="apres-examen-links-container">
-              <Link href="/">
-                <a className="apres-examen-link">Accueil</a>
-              </Link>
-              <Link href="/formations">
-                <a className="apres-examen-link01">Formations</a>
-              </Link>
-              <Link href="/preparation">
-                <a className="apres-examen-link02">Préparation Examen</a>
-              </Link>
-              <span className="apres-examen-text04">
-                <span>Après l&apos;examen</span>
-                <br></br>
-              </span>
-            </div>
-          </div>
-          <div data-role="BurgerMenu" className="apres-examen-burger-menu">
-            <svg viewBox="0 0 1024 1024" className="apres-examen-burger-menu">
-              <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
-              <path d="M810.667 426.667h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
-              <path d="M810.667 128h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
-            </svg>
-          </div>
-          <div data-role="MobileMenu" className="apres-examen-mobile-menu">
-            <div className="apres-examen-nav">
-              <div className="apres-examen-top">
-                <div
-                  data-role="CloseMobileMenu"
-                  className="apres-examen-close-menu"
-                >
-                  <svg viewBox="0 0 1024 1024" className="apres-examen-icon3">
-                    <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
-                  </svg>
-                </div>
-              </div>
-              <div className="apres-examen-right-side1">
-                <div className="apres-examen-links-container1">
-                  <Link href="/">
-                    <a className="apres-examen-link03">Accueil</a>
-                  </Link>
-                  <Link href="/formations">
-                    <a className="apres-examen-link04">Formations</a>
-                  </Link>
-                  <Link href="/preparation">
-                    <a className="apres-examen-link05">Avant l&apos;examen</a>
-                  </Link>
-                  <Link href="/apres-examen">
-                    <a className="apres-examen-link06">Après l&apos;examen</a>
-                  </Link>
-                </div>
+          <nav data-role="Header" className="apres-examen-navbar">
+            <div className="apres-examen-right-side">
+              <div className="apres-examen-links-container">
+                <Link href="/">
+                  <a className="apres-examen-link">Accueil</a>
+                </Link>
+                <Link href="/formations">
+                  <a className="apres-examen-link01">Formations</a>
+                </Link>
+                <Link href="/preparation">
+                  <a className="apres-examen-link02">Préparation Examen</a>
+                </Link>
+                <span className="apres-examen-text04">
+                  <span>Après l&apos;examen</span>
+                  <br></br>
+                </span>
               </div>
             </div>
-            <div className="apres-examen-follow-container">
-              <span className="apres-examen-text07">Suivez nous</span>
-              <a
-                href="https://www.facebook.com/autoecolelycee"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="apres-examen-link07"
-              >
-                <div className="apres-examen-icons-container">
-                  <svg
-                    viewBox="0 0 602.2582857142856 1024"
-                    className="apres-examen-icon5"
+            <div data-role="BurgerMenu" className="apres-examen-burger-menu">
+              <svg viewBox="0 0 1024 1024" className="apres-examen-burger-menu">
+                <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
+                <path d="M810.667 426.667h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
+                <path d="M810.667 128h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
+              </svg>
+            </div>
+            <div data-role="MobileMenu" className="apres-examen-mobile-menu">
+              <div className="apres-examen-nav">
+                <div className="apres-examen-top">
+                  <div
+                    data-role="CloseMobileMenu"
+                    className="apres-examen-close-menu"
                   >
-                    <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
-                  </svg>
+                    <svg viewBox="0 0 1024 1024" className="apres-examen-icon3">
+                      <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                    </svg>
+                  </div>
                 </div>
-              </a>
+                <div className="apres-examen-right-side1">
+                  <div className="apres-examen-links-container1">
+                    <Link href="/">
+                      <a className="apres-examen-link03">Accueil</a>
+                    </Link>
+                    <Link href="/formations">
+                      <a className="apres-examen-link04">Formations</a>
+                    </Link>
+                    <Link href="/preparation">
+                      <a className="apres-examen-link05">Avant l&apos;examen</a>
+                    </Link>
+                    <Link href="/apres-examen">
+                      <a className="apres-examen-link06">Après l&apos;examen</a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="apres-examen-follow-container">
+                <span className="apres-examen-text07">Suivez nous</span>
+                <a
+                  href="https://www.facebook.com/autoecolelycee"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="apres-examen-link07"
+                >
+                  <div className="apres-examen-icons-container">
+                    <svg
+                      viewBox="0 0 602.2582857142856 1024"
+                      className="apres-examen-icon5"
+                    >
+                      <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
+                    </svg>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
         <div id="main-section" className="apres-examen-main">
           <h1>Après l&apos;examen</h1>
           <span className="apres-examen-text09">
@@ -449,7 +449,9 @@ const ApresExamen = (props) => {
               font-size: 2.5rem;
             }
             .apres-examen-text03 {
+              font-style: normal;
               text-align: center;
+              font-weight: 600;
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
             }
@@ -520,11 +522,12 @@ const ApresExamen = (props) => {
               z-index: 200;
             }
             .apres-examen-main {
-              padding-top: var(--dl-space-space-unit);
-              padding-bottom: var(--dl-space-space-unit);
+              padding-top: var(--dl-space-space-doubleunit);
+              padding-bottom: var(--dl-space-space-doubleunit);
             }
             .apres-examen-text09 {
               text-align: justify;
+              margin-bottom: 0px;
             }
             .apres-examen-follow-container1 {
               margin-left: 0px;
