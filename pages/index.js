@@ -398,11 +398,13 @@ const Accueil = (props) => {
             width: 100%;
             height: 100px;
             display: flex;
-            align-items: flex-start;
+            align-items: center;
+            justify-content: center;
           }
           .accueil-code-embed {
             width: auto;
             height: auto;
+            align-self: center;
           }
           .accueil-footer {
             color: var(--dl-color-gray-white);
@@ -457,6 +459,10 @@ const Accueil = (props) => {
             .accueil-mobile-menu {
               display: none;
             }
+            .accueil-container3 {
+              align-items: center;
+              justify-content: center;
+            }
             .accueil-code-embed {
               align-self: center;
             }
@@ -506,6 +512,10 @@ const Accueil = (props) => {
             }
             .accueil-text08 {
               text-align: center;
+            }
+            .accueil-container3 {
+              align-items: center;
+              justify-content: center;
             }
             .accueil-code-embed {
               align-self: center;
@@ -579,6 +589,8 @@ const Accueil = (props) => {
               align-self: center;
             }
             .accueil-container3 {
+              align-items: center;
+              justify-content: center;
               background-color: var(--dl-color-gray-white);
             }
             .accueil-code-embed {
