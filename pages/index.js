@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
+import DangerousHTML from 'dangerous-html/react'
+
 const Accueil = (props) => {
   return (
     <>
@@ -31,13 +33,13 @@ const Accueil = (props) => {
               <div className="accueil-right-side">
                 <div className="accueil-links-container">
                   <span className="accueil-text04">Accueil</span>
-                  <Link href="/formations">
+                  <Link href="/playground_assets/formations">
                     <a className="accueil-link">Formations</a>
                   </Link>
-                  <Link href="/preparation">
+                  <Link href="/playground_assets/preparation">
                     <a className="accueil-link01">Préparation Examen</a>
                   </Link>
-                  <Link href="/apres-examen">
+                  <Link href="/playground_assets/apres-examen">
                     <a className="accueil-link02">
                       <span>Après l&apos;examen</span>
                       <br></br>
@@ -68,16 +70,16 @@ const Accueil = (props) => {
                   </div>
                   <div className="accueil-right-side1">
                     <div className="accueil-links-container1">
-                      <Link href="/">
+                      <Link href="/playground_assets/">
                         <a className="accueil-link03">Accueil</a>
                       </Link>
-                      <Link href="/formations">
+                      <Link href="/playground_assets/formations">
                         <a className="accueil-link04">Formations</a>
                       </Link>
-                      <Link href="/preparation">
+                      <Link href="/playground_assets/preparation">
                         <a className="accueil-link05">Avant l&apos;examen</a>
                       </Link>
-                      <Link href="/apres-examen">
+                      <Link href="/playground_assets/apres-examen">
                         <a className="accueil-link06">Après l&apos;examen</a>
                       </Link>
                     </div>
@@ -140,6 +142,19 @@ const Accueil = (props) => {
               src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2457.441881348849!2d4.596878376123943!3d44.731810615696936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b53af0f188638b%3A0x4a94d53970a20c3b!2sAuto%20Ecole%20du%20Lyc%C3%A9e!5e1!3m2!1sfr!2sfr!4v1671619201173!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
               className="accueil-iframe"
             ></iframe>
+          </div>
+        </div>
+        <div className="accueil-container3">
+          <div className="accueil-code-embed">
+            <DangerousHTML
+              html={`<div id="opinion-system" style="background-color:blue center"
+  class="opinion-system-widget-company-rating"
+  data-os-company-id="15920"
+  data-os-logo='false'
+  data-os-review='true'
+></div>
+`}
+            ></DangerousHTML>
           </div>
         </div>
         <div className="accueil-footer">
@@ -378,6 +393,17 @@ const Accueil = (props) => {
             width: 642px;
             height: 401px;
           }
+          .accueil-container3 {
+            flex: 0 0 auto;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: flex-start;
+          }
+          .accueil-code-embed {
+            width: auto;
+            height: auto;
+          }
           .accueil-footer {
             color: var(--dl-color-gray-white);
             width: 100%;
@@ -431,6 +457,9 @@ const Accueil = (props) => {
             .accueil-mobile-menu {
               display: none;
             }
+            .accueil-code-embed {
+              align-self: center;
+            }
           }
           @media (max-width: 767px) {
             .accueil-top-container {
@@ -477,6 +506,9 @@ const Accueil = (props) => {
             }
             .accueil-text08 {
               text-align: center;
+            }
+            .accueil-code-embed {
+              align-self: center;
             }
             .accueil-menu {
               flex-direction: column;
@@ -544,6 +576,16 @@ const Accueil = (props) => {
             }
             .accueil-text08 {
               color: var(--dl-color-gray-black);
+              align-self: center;
+            }
+            .accueil-container3 {
+              background-color: var(--dl-color-gray-white);
+            }
+            .accueil-code-embed {
+              align-self: center;
+            }
+            .accueil-menu {
+              width: 315px;
               align-self: center;
             }
             .accueil-follow-container1 {

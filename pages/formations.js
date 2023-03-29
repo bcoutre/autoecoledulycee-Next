@@ -33,14 +33,14 @@ const Formations = (props) => {
           <nav data-role="Header" className="formations-navbar">
             <div className="formations-right-side">
               <div className="formations-links-container">
-                <Link href="/">
+                <Link href="/playground_assets/">
                   <a className="formations-link">Accueil</a>
                 </Link>
                 <span className="formations-text04">Formations</span>
-                <Link href="/preparation">
+                <Link href="/playground_assets/preparation">
                   <a className="formations-link1">Préparation Examen</a>
                 </Link>
-                <Link href="/apres-examen">
+                <Link href="/playground_assets/apres-examen">
                   <a className="formations-link2">
                     <span>Après l&apos;examen</span>
                     <br></br>
@@ -69,16 +69,16 @@ const Formations = (props) => {
                 </div>
                 <div className="formations-right-side1">
                   <div className="formations-links-container1">
-                    <Link href="/">
+                    <Link href="/playground_assets/">
                       <a className="formations-link3">Accueil</a>
                     </Link>
-                    <Link href="/formations">
+                    <Link href="/playground_assets/formations">
                       <a className="formations-link4">Formations</a>
                     </Link>
-                    <Link href="/preparation">
+                    <Link href="/playground_assets/preparation">
                       <a className="formations-link5">Avant l&apos;examen</a>
                     </Link>
-                    <Link href="/apres-examen">
+                    <Link href="/playground_assets/apres-examen">
                       <a className="formations-link6">Après l&apos;examen</a>
                     </Link>
                   </div>
