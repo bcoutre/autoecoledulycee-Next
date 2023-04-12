@@ -33,13 +33,13 @@ const Accueil = (props) => {
               <div className="accueil-right-side">
                 <div className="accueil-links-container">
                   <span className="accueil-text04">Accueil</span>
-                  <Link href="/playground_assets/formations">
+                  <Link href="/formations">
                     <a className="accueil-link">Formations</a>
                   </Link>
-                  <Link href="/playground_assets/preparation">
+                  <Link href="/preparation">
                     <a className="accueil-link01">Préparation Examen</a>
                   </Link>
-                  <Link href="/playground_assets/apres-examen">
+                  <Link href="/apres-examen">
                     <a className="accueil-link02">
                       <span>Après l&apos;examen</span>
                       <br></br>
@@ -70,16 +70,16 @@ const Accueil = (props) => {
                   </div>
                   <div className="accueil-right-side1">
                     <div className="accueil-links-container1">
-                      <Link href="/playground_assets/">
+                      <Link href="/">
                         <a className="accueil-link03">Accueil</a>
                       </Link>
-                      <Link href="/playground_assets/formations">
+                      <Link href="/formations">
                         <a className="accueil-link04">Formations</a>
                       </Link>
-                      <Link href="/playground_assets/preparation">
+                      <Link href="/preparation">
                         <a className="accueil-link05">Avant l&apos;examen</a>
                       </Link>
-                      <Link href="/playground_assets/apres-examen">
+                      <Link href="/apres-examen">
                         <a className="accueil-link06">Après l&apos;examen</a>
                       </Link>
                     </div>

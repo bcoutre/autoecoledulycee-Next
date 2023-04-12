@@ -31,13 +31,13 @@ const ApresExamen = (props) => {
           <nav data-role="Header" className="apres-examen-navbar">
             <div className="apres-examen-right-side">
               <div className="apres-examen-links-container">
-                <Link href="/playground_assets/">
+                <Link href="/">
                   <a className="apres-examen-link">Accueil</a>
                 </Link>
-                <Link href="/playground_assets/formations">
+                <Link href="/formations">
                   <a className="apres-examen-link01">Formations</a>
                 </Link>
-                <Link href="/playground_assets/preparation">
+                <Link href="/preparation">
                   <a className="apres-examen-link02">Préparation Examen</a>
                 </Link>
                 <span className="apres-examen-text04">
@@ -67,16 +67,16 @@ const ApresExamen = (props) => {
                 </div>
                 <div className="apres-examen-right-side1">
                   <div className="apres-examen-links-container1">
-                    <Link href="/playground_assets/">
+                    <Link href="/">
                       <a className="apres-examen-link03">Accueil</a>
                     </Link>
-                    <Link href="/playground_assets/formations">
+                    <Link href="/formations">
                       <a className="apres-examen-link04">Formations</a>
                     </Link>
-                    <Link href="/playground_assets/preparation">
+                    <Link href="/preparation">
                       <a className="apres-examen-link05">Avant l&apos;examen</a>
                     </Link>
-                    <Link href="/playground_assets/apres-examen">
+                    <Link href="/apres-examen">
                       <a className="apres-examen-link06">Après l&apos;examen</a>
                     </Link>
                   </div>

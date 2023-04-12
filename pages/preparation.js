@@ -31,14 +31,14 @@ const Preparation = (props) => {
           <nav data-role="Header" className="preparation-navbar">
             <div className="preparation-right-side">
               <div className="preparation-links-container">
-                <Link href="/playground_assets/">
+                <Link href="/">
                   <a className="preparation-link">Accueil</a>
                 </Link>
-                <Link href="/playground_assets/formations">
+                <Link href="/formations">
                   <a className="preparation-link1">Formations</a>
                 </Link>
                 <span className="preparation-text04">Préparation Examen</span>
-                <Link href="/playground_assets/apres-examen">
+                <Link href="/apres-examen">
                   <a className="preparation-link2">
                     <span>Après l&apos;examen</span>
                     <br></br>
@@ -67,16 +67,16 @@ const Preparation = (props) => {
                 </div>
                 <div className="preparation-right-side1">
                   <div className="preparation-links-container1">
-                    <Link href="/playground_assets/">
+                    <Link href="/">
                       <a className="preparation-link3">Accueil</a>
                     </Link>
-                    <Link href="/playground_assets/formations">
+                    <Link href="/formations">
                       <a className="preparation-link4">Formations</a>
                     </Link>
-                    <Link href="/playground_assets/preparation">
+                    <Link href="/preparation">
                       <a className="preparation-link5">Avant l&apos;examen</a>
                     </Link>
-                    <Link href="/playground_assets/apres-examen">
+                    <Link href="/apres-examen">
                       <a className="preparation-link6">Après l&apos;examen</a>
                     </Link>
                   </div>
