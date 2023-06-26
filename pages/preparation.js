@@ -14,7 +14,7 @@ const Preparation = (props) => {
           <div className="preparation-content-container">
             <img
               alt="image"
-              src="/playground_assets/logo-400h.png"
+              src="/logo-400h.png"
               className="preparation-image"
             />
             <h1 className="preparation-text">

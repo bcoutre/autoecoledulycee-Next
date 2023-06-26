@@ -14,7 +14,7 @@ const ApresExamen = (props) => {
           <div className="apres-examen-content-container">
             <img
               alt="image"
-              src="/playground_assets/logo-400h.png"
+              src="/logo-400h.png"
               className="apres-examen-image"
             />
             <h1 className="apres-examen-text">

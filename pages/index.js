@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 
 const Accueil = (props) => {
   return (
@@ -14,11 +14,7 @@ const Accueil = (props) => {
         </Head>
         <div className="accueil-top-container">
           <div className="accueil-content-container">
-            <img
-              alt="image"
-              src="/playground_assets/logo-400h.png"
-              className="accueil-image"
-            />
+            <img alt="image" src="/logo-400h.png" className="accueil-image" />
             <h1 className="accueil-text">
               <span>BIENVENUE A L&apos;AUTO-ECOLE DU LYCEE</span>
               <br></br>
@@ -26,6 +22,17 @@ const Accueil = (props) => {
             <h2 className="Subheading accueil-subheading">
               Eglantine Conduite
             </h2>
+            <div className="accueil-code-embed">
+              <Script
+                html={`<div id="opinion-system" style="background-color:blue center"
+  class="opinion-system-widget-company-rating"
+  data-os-company-id="15920"
+  data-os-logo='true'
+  data-os-review='true'
+/>
+`}
+              ></Script>
+            </div>
             <span className="accueil-text03">
               Permis B, A1, A2, AM, Formation 125 cm3, et Post-Permis
             </span>
@@ -144,19 +151,6 @@ const Accueil = (props) => {
             ></iframe>
           </div>
         </div>
-        <div className="accueil-container3">
-          <div className="accueil-code-embed">
-            <DangerousHTML
-              html={`<div id="opinion-system" style="background-color:blue center"
-  class="opinion-system-widget-company-rating"
-  data-os-company-id="15920"
-  data-os-logo='false'
-  data-os-review='true'
-></div>
-`}
-            ></DangerousHTML>
-          </div>
-        </div>
         <div className="accueil-footer">
           <div className="accueil-menu">
             <span className="accueil-text30">
@@ -216,6 +210,11 @@ const Accueil = (props) => {
             height: 314px;
             max-width: 700px;
             object-fit: cover;
+          }
+          .accueil-code-embed {
+            width: auto;
+            height: auto;
+            align-self: center;
           }
           .accueil-text03 {
             padding-top: var(--dl-space-space-doubleunit);
@@ -393,19 +392,6 @@ const Accueil = (props) => {
             width: 642px;
             height: 401px;
           }
-          .accueil-container3 {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 100px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .accueil-code-embed {
-            width: auto;
-            height: auto;
-            align-self: center;
-          }
           .accueil-footer {
             color: var(--dl-color-gray-white);
             width: 100%;
@@ -453,18 +439,14 @@ const Accueil = (props) => {
             .accueil-top-container {
               height: auto;
             }
+            .accueil-code-embed {
+              align-self: center;
+            }
             .accueil-burger-menu {
               display: flex;
             }
             .accueil-mobile-menu {
               display: none;
-            }
-            .accueil-container3 {
-              align-items: center;
-              justify-content: center;
-            }
-            .accueil-code-embed {
-              align-self: center;
             }
           }
           @media (max-width: 767px) {
@@ -476,6 +458,9 @@ const Accueil = (props) => {
             }
             .accueil-text {
               font-size: 2.5rem;
+            }
+            .accueil-code-embed {
+              align-self: center;
             }
             .accueil-text03 {
               font-style: normal;
@@ -513,13 +498,6 @@ const Accueil = (props) => {
             .accueil-text08 {
               text-align: center;
             }
-            .accueil-container3 {
-              align-items: center;
-              justify-content: center;
-            }
-            .accueil-code-embed {
-              align-self: center;
-            }
             .accueil-menu {
               flex-direction: column;
             }
@@ -552,6 +530,9 @@ const Accueil = (props) => {
             .accueil-subheading {
               font-size: 1.3rem;
               text-align: center;
+            }
+            .accueil-code-embed {
+              align-self: center;
             }
             .accueil-text03 {
               font-style: normal;
@@ -586,14 +567,6 @@ const Accueil = (props) => {
             }
             .accueil-text08 {
               color: var(--dl-color-gray-black);
-              align-self: center;
-            }
-            .accueil-container3 {
-              align-items: center;
-              justify-content: center;
-              background-color: var(--dl-color-gray-white);
-            }
-            .accueil-code-embed {
               align-self: center;
             }
             .accueil-menu {

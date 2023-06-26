@@ -16,7 +16,7 @@ const Formations = (props) => {
           <div className="formations-content-container">
             <img
               alt="image"
-              src="/playground_assets/logo-400h.png"
+              src="/logo-400h.png"
               className="formations-image"
             />
             <h1 className="formations-text">
