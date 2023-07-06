@@ -12,10 +12,35 @@ const Accueil = (props) => {
           <title>autoecoledulycee</title>
           <meta property="og:title" content="autoecoledulycee" />
         </Head>
+        <div className="accueil-container1">
+          <svg viewBox="0 0 1024 1024" className="accueil-icon">
+            <path d="M1024 429.256c0-200.926-58.792-363.938-131.482-365.226 0.292-0.006 0.578-0.030 0.872-0.030h-82.942c0 0-194.8 146.336-475.23 203.754-8.56 45.292-14.030 99.274-14.030 161.502s5.466 116.208 14.030 161.5c280.428 57.418 475.23 203.756 475.23 203.756h82.942c-0.292 0-0.578-0.024-0.872-0.032 72.696-1.288 131.482-164.298 131.482-365.224zM864.824 739.252c-9.382 0-19.532-9.742-24.746-15.548-12.63-14.064-24.792-35.96-35.188-63.328-23.256-61.232-36.066-143.31-36.066-231.124 0-87.81 12.81-169.89 36.066-231.122 10.394-27.368 22.562-49.266 35.188-63.328 5.214-5.812 15.364-15.552 24.746-15.552 9.38 0 19.536 9.744 24.744 15.552 12.634 14.064 24.796 35.958 35.188 63.328 23.258 61.23 36.068 143.312 36.068 231.122 0 87.804-12.81 169.888-36.068 231.124-10.39 27.368-22.562 49.264-35.188 63.328-5.208 5.806-15.36 15.548-24.744 15.548zM251.812 429.256c0-51.95 3.81-102.43 11.052-149.094-47.372 6.554-88.942 10.324-140.34 10.324-67.058 0-67.058 0-67.058 0l-55.466 94.686v88.17l55.46 94.686c0 0 0 0 67.060 0 51.398 0 92.968 3.774 140.34 10.324-7.236-46.664-11.048-97.146-11.048-149.096zM368.15 642.172l-127.998-24.51 81.842 321.544c4.236 16.634 20.744 25.038 36.686 18.654l118.556-47.452c15.944-6.376 22.328-23.964 14.196-39.084l-123.282-229.152zM864.824 548.73c-3.618 0-7.528-3.754-9.538-5.992-4.87-5.42-9.556-13.86-13.562-24.408-8.962-23.6-13.9-55.234-13.9-89.078s4.938-65.478 13.9-89.078c4.006-10.548 8.696-18.988 13.562-24.408 2.010-2.24 5.92-5.994 9.538-5.994 3.616 0 7.53 3.756 9.538 5.994 4.87 5.42 9.556 13.858 13.56 24.408 8.964 23.598 13.902 55.234 13.902 89.078 0 33.842-4.938 65.478-13.902 89.078-4.004 10.548-8.696 18.988-13.56 24.408-2.008 2.238-5.92 5.992-9.538 5.992z"></path>
+          </svg>
+          <div className="accueil-container2">
+            <span className="accueil-text">
+              <span>
+                Du 7 juillet au 20 Août, l&apos;accueil au bureau et la salle de
+                code seront ouverts uniquement les mercredi et jeudi de 17h à
+                19h.
+              </span>
+              <br></br>
+            </span>
+            <span className="accueil-text03">
+              <span>
+                Du 21 au 28 Août, l&apos;accueil et le code seront fermés.
+              </span>
+              <br></br>
+            </span>
+            <span className="accueil-text06">
+              <span>Le 5 Septembre retour aux horaires normaux</span>
+              <br></br>
+            </span>
+          </div>
+        </div>
         <div className="accueil-top-container">
           <div className="accueil-content-container">
             <img alt="image" src="/logo-400h.png" className="accueil-image" />
-            <h1 className="accueil-text">
+            <h1 className="accueil-text09">
               <span>BIENVENUE A L&apos;AUTO-ECOLE DU LYCEE</span>
               <br></br>
             </h1>
@@ -33,13 +58,13 @@ const Accueil = (props) => {
 `}
               ></Script>
             </div>
-            <span className="accueil-text03">
+            <span className="accueil-text12">
               Permis B, A1, A2, AM, Formation 125 cm3, et Post-Permis
             </span>
             <nav data-role="Header" className="accueil-navbar">
               <div className="accueil-right-side">
                 <div className="accueil-links-container">
-                  <span className="accueil-text04">Accueil</span>
+                  <span className="accueil-text13">Accueil</span>
                   <Link href="/formations">
                     <a className="accueil-link">Formations</a>
                   </Link>
@@ -54,7 +79,7 @@ const Accueil = (props) => {
                   </Link>
                 </div>
               </div>
-              <div className="accueil-container1">
+              <div className="accueil-container3">
                 <div data-role="BurgerMenu" className="accueil-burger-menu">
                   <svg viewBox="0 0 1024 1024" className="accueil-burger-menu">
                     <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
@@ -70,7 +95,7 @@ const Accueil = (props) => {
                       data-role="CloseMobileMenu"
                       className="accueil-close-menu"
                     >
-                      <svg viewBox="0 0 1024 1024" className="accueil-icon3">
+                      <svg viewBox="0 0 1024 1024" className="accueil-icon05">
                         <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                       </svg>
                     </div>
@@ -93,7 +118,7 @@ const Accueil = (props) => {
                   </div>
                 </div>
                 <div className="accueil-follow-container">
-                  <span className="accueil-text07">Suivez nous</span>
+                  <span className="accueil-text16">Suivez nous</span>
                   <div className="accueil-icons-container">
                     <a
                       href="https://www.facebook.com/autoecolelycee"
@@ -103,7 +128,7 @@ const Accueil = (props) => {
                     >
                       <svg
                         viewBox="0 0 602.2582857142856 1024"
-                        className="accueil-icon5"
+                        className="accueil-icon07"
                       >
                         <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
                       </svg>
@@ -115,8 +140,8 @@ const Accueil = (props) => {
           </div>
         </div>
         <div id="main-section" className="accueil-main">
-          <div className="accueil-container2">
-            <span className="accueil-text08">
+          <div className="accueil-container4">
+            <span className="accueil-text17">
               <span>3 Boulevard du lycée</span>
               <br></br>
               <a href="tel:+33 4 75 64 49 10">04 75 64 49 10</a>
@@ -153,7 +178,7 @@ const Accueil = (props) => {
         </div>
         <div className="accueil-footer">
           <div className="accueil-menu">
-            <span className="accueil-text30">
+            <span className="accueil-text39">
               <span>SARL Unipersonnelle Eglantine Conduite</span>
               <br></br>
               <span>3 Bvd Du Lycée 07000 Privas</span>
@@ -163,7 +188,7 @@ const Accueil = (props) => {
               <span>Agrément N° : E2200700020</span>
             </span>
             <div className="accueil-follow-container1">
-              <span className="accueil-text38">Suivez-nous</span>
+              <span className="accueil-text47">Suivez-nous</span>
               <div className="accueil-icons-container1">
                 <a
                   href="https://www.facebook.com/autoecolelycee"
@@ -173,7 +198,7 @@ const Accueil = (props) => {
                 >
                   <svg
                     viewBox="0 0 602.2582857142856 1024"
-                    className="accueil-icon7"
+                    className="accueil-icon09"
                   >
                     <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
                   </svg>
@@ -190,8 +215,47 @@ const Accueil = (props) => {
             height: auto;
             display: flex;
             min-height: 100vh;
-            align-items: center;
             flex-direction: column;
+          }
+          .accueil-container1 {
+            width: 100%;
+            height: 108px;
+            display: flex;
+            align-items: flex-start;
+            margin-left: 0px;
+            margin-right: 0px;
+            background-color: #a01d21;
+          }
+          .accueil-icon {
+            fill: var(--dl-color-gray-white);
+            flex: 1;
+            width: 85px;
+            height: 105px;
+            align-self: center;
+            padding-left: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-unit);
+          }
+          .accueil-container2 {
+            flex: 0 0 auto;
+            width: 910px;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-self: center;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .accueil-text {
+            color: var(--dl-color-gray-white);
+            align-self: flex-start;
+          }
+          .accueil-text03 {
+            color: var(--dl-color-gray-white);
+            align-self: flex-start;
+          }
+          .accueil-text06 {
+            color: var(--dl-color-gray-white);
+            align-self: flex-start;
           }
           .accueil-top-container {
             width: 100%;
@@ -216,7 +280,7 @@ const Accueil = (props) => {
             height: auto;
             align-self: center;
           }
-          .accueil-text03 {
+          .accueil-text12 {
             padding-top: var(--dl-space-space-doubleunit);
             padding-bottom: var(--dl-space-space-doubleunit);
           }
@@ -242,7 +306,7 @@ const Accueil = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .accueil-text04 {
+          .accueil-text13 {
             margin-right: var(--dl-space-space-doubleunit);
           }
           .accueil-link {
@@ -257,7 +321,7 @@ const Accueil = (props) => {
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
-          .accueil-container1 {
+          .accueil-container3 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -311,7 +375,7 @@ const Accueil = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .accueil-icon3 {
+          .accueil-icon05 {
             width: 24px;
             height: 24px;
           }
@@ -350,7 +414,7 @@ const Accueil = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .accueil-text07 {
+          .accueil-text16 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .accueil-icons-container {
@@ -363,7 +427,7 @@ const Accueil = (props) => {
           .accueil-link07 {
             display: contents;
           }
-          .accueil-icon5 {
+          .accueil-icon07 {
             width: 24px;
             height: 24px;
             text-decoration: none;
@@ -379,13 +443,13 @@ const Accueil = (props) => {
             padding-bottom: var(--dl-space-space-quadruple);
             justify-content: center;
           }
-          .accueil-container2 {
+          .accueil-container4 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
             align-items: flex-start;
           }
-          .accueil-text08 {
+          .accueil-text17 {
             color: var(--dl-color-gray-black);
           }
           .accueil-iframe {
@@ -417,7 +481,7 @@ const Accueil = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .accueil-text38 {
+          .accueil-text47 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .accueil-icons-container1 {
@@ -430,12 +494,32 @@ const Accueil = (props) => {
           .accueil-link11 {
             display: contents;
           }
-          .accueil-icon7 {
+          .accueil-icon09 {
             fill: var(--dl-color-gray-white);
             width: 24px;
             height: 24px;
           }
           @media (max-width: 991px) {
+            .accueil-container1 {
+              width: auto;
+              height: 129px;
+              margin-right: 0px;
+            }
+            .accueil-icon {
+              fill: var(--dl-color-gray-white);
+              width: 106px;
+              height: 80px;
+              align-self: center;
+            }
+            .accueil-container2 {
+              width: 85%;
+              height: 144px;
+              flex-wrap: wrap;
+              justify-content: center;
+            }
+            .accueil-text06 {
+              align-self: flex-start;
+            }
             .accueil-top-container {
               height: auto;
             }
@@ -448,21 +532,44 @@ const Accueil = (props) => {
             .accueil-mobile-menu {
               display: none;
             }
+            .accueil-main {
+              width: 100%;
+            }
           }
           @media (max-width: 767px) {
+            .accueil-container1 {
+              width: 100%;
+              height: 181px;
+              align-items: center;
+              flex-direction: column;
+            }
+            .accueil-icon {
+              fill: var(--dl-color-gray-white);
+              flex: 1;
+              width: 100%;
+              height: auto;
+              align-self: center;
+            }
+            .accueil-container2 {
+              width: 100%;
+              height: auto;
+              flex-wrap: wrap;
+              margin-right: 0px;
+              justify-content: center;
+            }
             .accueil-top-container {
               height: auto;
             }
             .accueil-content-container {
               align-items: center;
             }
-            .accueil-text {
+            .accueil-text09 {
               font-size: 2.5rem;
             }
             .accueil-code-embed {
               align-self: center;
             }
-            .accueil-text03 {
+            .accueil-text12 {
               font-style: normal;
               text-align: center;
               font-weight: 600;
@@ -487,7 +594,7 @@ const Accueil = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .accueil-container2 {
+            .accueil-container4 {
               width: auto;
               align-items: center;
               padding-top: var(--dl-space-space-doubleunit);
@@ -495,20 +602,60 @@ const Accueil = (props) => {
               padding-bottom: var(--dl-space-space-doubleunit);
               justify-content: space-between;
             }
-            .accueil-text08 {
+            .accueil-text17 {
               text-align: center;
             }
             .accueil-menu {
               flex-direction: column;
             }
-            .accueil-text30 {
+            .accueil-text39 {
               text-align: center;
             }
-            .accueil-text38 {
+            .accueil-text47 {
               text-align: center;
             }
           }
           @media (max-width: 479px) {
+            .accueil-container1 {
+              width: 100%;
+              height: 278px;
+              flex-wrap: wrap;
+              margin-left: 0px;
+              margin-right: 0px;
+              padding-left: var(--dl-space-space-unit);
+              margin-bottom: 0px;
+              padding-right: var(--dl-space-space-unit);
+              flex-direction: column;
+            }
+            .accueil-icon {
+              fill: var(--dl-color-gray-white);
+              width: 99px;
+              height: 140px;
+              align-self: center;
+              margin-left: 0px;
+              margin-right: 0px;
+              padding-left: 0px;
+              padding-right: 0px;
+            }
+            .accueil-container2 {
+              width: 100%;
+              height: auto;
+              position: relative;
+              flex-wrap: wrap;
+              align-items: flex-start;
+              margin-right: 0px;
+              padding-right: 0px;
+              flex-direction: column;
+            }
+            .accueil-text {
+              background-color: transparent;
+            }
+            .accueil-text03 {
+              background-color: transparent;
+            }
+            .accueil-text06 {
+              background-color: transparent;
+            }
             .accueil-top-container {
               height: auto;
             }
@@ -520,7 +667,7 @@ const Accueil = (props) => {
               height: auto;
               max-width: 100%;
             }
-            .accueil-text {
+            .accueil-text09 {
               width: 100%;
               height: auto;
               font-size: 2rem;
@@ -534,7 +681,7 @@ const Accueil = (props) => {
             .accueil-code-embed {
               align-self: center;
             }
-            .accueil-text03 {
+            .accueil-text12 {
               font-style: normal;
               font-weight: 600;
             }
@@ -555,19 +702,27 @@ const Accueil = (props) => {
               width: 100%;
               align-self: center;
               padding-top: 0px;
+              padding-left: 0px;
+              padding-right: 0px;
+              padding-bottom: var(--dl-space-space-unit);
               justify-content: center;
             }
-            .accueil-container2 {
+            .accueil-container4 {
               width: 100%;
+              position: relative;
               flex-wrap: wrap;
               align-self: center;
               padding-top: var(--dl-space-space-doubleunit);
               flex-direction: row;
               justify-content: center;
             }
-            .accueil-text08 {
+            .accueil-text17 {
               color: var(--dl-color-gray-black);
               align-self: center;
+            }
+            .accueil-iframe {
+              width: 468px;
+              height: 273px;
             }
             .accueil-menu {
               width: 315px;
