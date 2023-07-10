@@ -224,6 +224,7 @@ const Accueil = (props) => {
             align-items: flex-start;
             margin-left: 0px;
             margin-right: 0px;
+            padding-right: var(--dl-space-space-unit);
             background-color: #a01d21;
           }
           .accueil-icon {
@@ -622,7 +623,6 @@ const Accueil = (props) => {
               flex-wrap: wrap;
               margin-left: 0px;
               margin-right: 0px;
-              padding-left: var(--dl-space-space-unit);
               margin-bottom: 0px;
               padding-right: var(--dl-space-space-unit);
               flex-direction: column;
