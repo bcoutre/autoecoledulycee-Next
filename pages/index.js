@@ -608,6 +608,7 @@ const Accueil = (props) => {
             .accueil-container1 {
               width: 100%;
               height: 278px;
+              display: none;
               flex-wrap: wrap;
               margin-left: 0px;
               margin-right: 0px;
