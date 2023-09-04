@@ -212,7 +212,7 @@ const Accueil = (props) => {
           .accueil-container1 {
             width: 100%;
             height: 108px;
-            display: flex;
+            display: none;
             align-items: flex-start;
             margin-left: 0px;
             margin-right: 0px;
@@ -492,6 +492,7 @@ const Accueil = (props) => {
             .accueil-container1 {
               width: auto;
               height: 129px;
+              display: none;
               margin-right: 0px;
             }
             .accueil-icon {
@@ -529,6 +530,7 @@ const Accueil = (props) => {
             .accueil-container1 {
               width: 100%;
               height: 181px;
+              display: none;
               align-items: center;
               flex-direction: column;
             }
