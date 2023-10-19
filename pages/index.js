@@ -19,12 +19,39 @@ const Accueil = (props) => {
           <div className="accueil-container2">
             <span className="accueil-text">
               <span>
-                Du 21 au 28 Août, l&apos;accueil et le code seront fermés.
+                Ouverture du bureau et de la salle de code de 17 à 19h les :
               </span>
               <br></br>
-            </span>
-            <span className="accueil-text03">
-              <span>Le 5 Septembre retour aux horaires normaux</span>
+              <span>
+                mercredi 25/10
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <span>
+                Jeudi 26/10,
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <span>Mardi 31/10</span>
+              <br></br>
+              <span>
+                Jeudi 02/11
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <span>Retour aux horaires normaux le mardi 07/11.</span>
               <br></br>
             </span>
           </div>
@@ -32,31 +59,33 @@ const Accueil = (props) => {
         <div className="accueil-top-container">
           <div className="accueil-content-container">
             <img alt="image" src="/logo-400h.png" className="accueil-image" />
-            <h1 className="accueil-text06">
+            <h1 className="accueil-text13">
               <span>BIENVENUE A L&apos;AUTO-ECOLE DU LYCEE</span>
               <br></br>
             </h1>
             <h2 className="Subheading accueil-subheading">
               Eglantine Conduite
             </h2>
-            <div className="accueil-code-embed">
-              <Script
-                html={`<div id="opinion-system" style="background-color:blue center"
+            <div className="accueil-container3">
+              <div className="accueil-container4">
+                <Script
+                  html={`<div id="opinion-system" style="background-color:blue center"
   class="opinion-system-widget-company-rating"
   data-os-company-id="15920"
   data-os-logo='true'
   data-os-review='true'
 />
 `}
-              ></Script>
+                ></Script>
+              </div>
             </div>
-            <span className="accueil-text09">
+            <span className="accueil-text16">
               Permis B, A1, A2, AM, Formation 125 cm3, et Post-Permis
             </span>
             <nav data-role="Header" className="accueil-navbar">
               <div className="accueil-right-side">
                 <div className="accueil-links-container">
-                  <span className="accueil-text10">Accueil</span>
+                  <span className="accueil-text17">Accueil</span>
                   <Link href="/formations">
                     <a className="accueil-link">Formations</a>
                   </Link>
@@ -71,9 +100,9 @@ const Accueil = (props) => {
                   </Link>
                 </div>
               </div>
-              <div className="accueil-container3">
+              <div className="accueil-container5">
                 <div data-role="BurgerMenu" className="accueil-burger-menu">
-                  <svg viewBox="0 0 1024 1024" className="accueil-burger-menu">
+                  <svg viewBox="0 0 1024 1024" className="accueil-burger-menu1">
                     <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
                     <path d="M810.667 426.667h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
                     <path d="M810.667 128h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
@@ -110,7 +139,7 @@ const Accueil = (props) => {
                   </div>
                 </div>
                 <div className="accueil-follow-container">
-                  <span className="accueil-text13">Suivez nous</span>
+                  <span className="accueil-text20">Suivez nous</span>
                   <div className="accueil-icons-container">
                     <a
                       href="https://www.facebook.com/autoecolelycee"
@@ -132,8 +161,8 @@ const Accueil = (props) => {
           </div>
         </div>
         <div id="main-section" className="accueil-main">
-          <div className="accueil-container4">
-            <span className="accueil-text14">
+          <div className="accueil-container6">
+            <span className="accueil-text21">
               <span>3 Boulevard du lycée</span>
               <br></br>
               <a href="tel:+33 4 75 64 49 10">04 75 64 49 10</a>
@@ -170,7 +199,7 @@ const Accueil = (props) => {
         </div>
         <div className="accueil-footer">
           <div className="accueil-menu">
-            <span className="accueil-text36">
+            <span className="accueil-text43">
               <span>SARL Unipersonnelle Eglantine Conduite</span>
               <br></br>
               <span>3 Bvd Du Lycée 07000 Privas</span>
@@ -180,7 +209,7 @@ const Accueil = (props) => {
               <span>Agrément N° : E2200700020</span>
             </span>
             <div className="accueil-follow-container1">
-              <span className="accueil-text44">Suivez-nous</span>
+              <span className="accueil-text51">Suivez-nous</span>
               <div className="accueil-icons-container1">
                 <a
                   href="https://www.facebook.com/autoecolelycee"
@@ -211,18 +240,17 @@ const Accueil = (props) => {
           }
           .accueil-container1 {
             width: 100%;
-            height: 108px;
-            display: none;
+            height: 187px;
+            display: flex;
             align-items: flex-start;
             margin-left: 0px;
             margin-right: 0px;
-            padding-right: var(--dl-space-space-unit);
             background-color: #a01d21;
           }
           .accueil-icon {
             fill: var(--dl-color-gray-white);
             flex: 1;
-            width: 85px;
+            width: auto;
             height: 105px;
             align-self: center;
             padding-left: var(--dl-space-space-unit);
@@ -230,19 +258,16 @@ const Accueil = (props) => {
           }
           .accueil-container2 {
             flex: 0 0 auto;
-            width: 910px;
+            width: 1414px;
             height: auto;
             display: flex;
             flex-wrap: wrap;
             align-self: center;
             align-items: flex-start;
-            flex-direction: column;
+            flex-direction: row;
+            justify-content: flex-start;
           }
           .accueil-text {
-            color: var(--dl-color-gray-white);
-            align-self: flex-start;
-          }
-          .accueil-text03 {
             color: var(--dl-color-gray-white);
             align-self: flex-start;
           }
@@ -264,12 +289,15 @@ const Accueil = (props) => {
             max-width: 700px;
             object-fit: cover;
           }
-          .accueil-code-embed {
+          .accueil-container3 {
             width: auto;
             height: auto;
             align-self: center;
           }
-          .accueil-text09 {
+          .accueil-container4 {
+            display: contents;
+          }
+          .accueil-text16 {
             padding-top: var(--dl-space-space-doubleunit);
             padding-bottom: var(--dl-space-space-doubleunit);
           }
@@ -295,7 +323,7 @@ const Accueil = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .accueil-text10 {
+          .accueil-text17 {
             margin-right: var(--dl-space-space-doubleunit);
           }
           .accueil-link {
@@ -310,7 +338,7 @@ const Accueil = (props) => {
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
-          .accueil-container3 {
+          .accueil-container5 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -324,7 +352,7 @@ const Accueil = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .accueil-burger-menu {
+          .accueil-burger-menu1 {
             width: 24px;
             height: 24px;
             display: none;
@@ -403,7 +431,7 @@ const Accueil = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .accueil-text13 {
+          .accueil-text20 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .accueil-icons-container {
@@ -432,13 +460,13 @@ const Accueil = (props) => {
             padding-bottom: var(--dl-space-space-quadruple);
             justify-content: center;
           }
-          .accueil-container4 {
+          .accueil-container6 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
             align-items: flex-start;
           }
-          .accueil-text14 {
+          .accueil-text21 {
             color: var(--dl-color-gray-black);
           }
           .accueil-iframe {
@@ -470,7 +498,7 @@ const Accueil = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .accueil-text44 {
+          .accueil-text51 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .accueil-icons-container1 {
@@ -491,9 +519,9 @@ const Accueil = (props) => {
           @media (max-width: 991px) {
             .accueil-container1 {
               width: auto;
-              height: 129px;
-              display: none;
+              height: 171px;
               margin-right: 0px;
+              padding-right: 0px;
             }
             .accueil-icon {
               fill: var(--dl-color-gray-white);
@@ -507,16 +535,16 @@ const Accueil = (props) => {
               flex-wrap: wrap;
               justify-content: center;
             }
-            .accueil-text03 {
-              align-self: flex-start;
+            .accueil-text {
+              color: var(--dl-color-gray-white);
             }
             .accueil-top-container {
               height: auto;
             }
-            .accueil-code-embed {
+            .accueil-container3 {
               align-self: center;
             }
-            .accueil-burger-menu {
+            .accueil-burger-menu1 {
               display: flex;
             }
             .accueil-mobile-menu {
@@ -529,17 +557,18 @@ const Accueil = (props) => {
           @media (max-width: 767px) {
             .accueil-container1 {
               width: 100%;
-              height: 181px;
-              display: none;
+              height: 252px;
               align-items: center;
               flex-direction: column;
             }
             .accueil-icon {
               fill: var(--dl-color-gray-white);
-              flex: 1;
-              width: 100%;
-              height: auto;
+              flex: 3;
+              width: 200px;
+              height: 200px;
               align-self: center;
+              padding-left: 0px;
+              padding-right: 0px;
             }
             .accueil-container2 {
               width: 100%;
@@ -548,19 +577,22 @@ const Accueil = (props) => {
               margin-right: 0px;
               justify-content: center;
             }
+            .accueil-text {
+              align-self: center;
+            }
             .accueil-top-container {
               height: auto;
             }
             .accueil-content-container {
               align-items: center;
             }
-            .accueil-text06 {
+            .accueil-text13 {
               font-size: 2.5rem;
             }
-            .accueil-code-embed {
+            .accueil-container3 {
               align-self: center;
             }
-            .accueil-text09 {
+            .accueil-text16 {
               font-style: normal;
               text-align: center;
               font-weight: 600;
@@ -580,12 +612,15 @@ const Accueil = (props) => {
             .accueil-burger-menu {
               display: flex;
             }
+            .accueil-burger-menu1 {
+              display: flex;
+            }
             .accueil-main {
               padding-top: 0px;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .accueil-container4 {
+            .accueil-container6 {
               width: auto;
               align-items: center;
               padding-top: var(--dl-space-space-doubleunit);
@@ -593,16 +628,16 @@ const Accueil = (props) => {
               padding-bottom: var(--dl-space-space-doubleunit);
               justify-content: space-between;
             }
-            .accueil-text14 {
+            .accueil-text21 {
               text-align: center;
             }
             .accueil-menu {
               flex-direction: column;
             }
-            .accueil-text36 {
+            .accueil-text43 {
               text-align: center;
             }
-            .accueil-text44 {
+            .accueil-text51 {
               text-align: center;
             }
           }
@@ -610,12 +645,11 @@ const Accueil = (props) => {
             .accueil-container1 {
               width: 100%;
               height: 278px;
-              display: none;
               flex-wrap: wrap;
               margin-left: 0px;
               margin-right: 0px;
               margin-bottom: 0px;
-              padding-right: var(--dl-space-space-unit);
+              padding-right: 0px;
               flex-direction: column;
             }
             .accueil-icon {
@@ -642,9 +676,6 @@ const Accueil = (props) => {
               color: var(--dl-color-gray-white);
               background-color: transparent;
             }
-            .accueil-text03 {
-              background-color: transparent;
-            }
             .accueil-top-container {
               height: auto;
             }
@@ -656,7 +687,7 @@ const Accueil = (props) => {
               height: auto;
               max-width: 100%;
             }
-            .accueil-text06 {
+            .accueil-text13 {
               width: 100%;
               height: auto;
               font-size: 2rem;
@@ -667,10 +698,11 @@ const Accueil = (props) => {
               font-size: 1.3rem;
               text-align: center;
             }
-            .accueil-code-embed {
+            .accueil-container3 {
               align-self: center;
+              margin-bottom: 0px;
             }
-            .accueil-text09 {
+            .accueil-text16 {
               font-style: normal;
               font-weight: 600;
             }
@@ -680,7 +712,7 @@ const Accueil = (props) => {
               padding-right: 0px;
               padding-bottom: 0px;
             }
-            .accueil-burger-menu {
+            .accueil-burger-menu1 {
               display: flex;
               z-index: 200;
             }
@@ -696,7 +728,7 @@ const Accueil = (props) => {
               padding-bottom: var(--dl-space-space-unit);
               justify-content: center;
             }
-            .accueil-container4 {
+            .accueil-container6 {
               width: 100%;
               position: relative;
               flex-wrap: wrap;
@@ -705,13 +737,13 @@ const Accueil = (props) => {
               flex-direction: row;
               justify-content: center;
             }
-            .accueil-text14 {
+            .accueil-text21 {
               color: var(--dl-color-gray-black);
               align-self: center;
             }
             .accueil-iframe {
-              width: 468px;
-              height: 273px;
+              width: 479px;
+              height: 340px;
             }
             .accueil-menu {
               width: 315px;

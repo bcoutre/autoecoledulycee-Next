@@ -18,5 +18,8 @@
     "dangerous-html": "0.1.13",
     "prop-types": "15.7.2"
   },
+  "engines": {
+    "node": ">=18.x"
+  },
   "devDependencies": {}
 }

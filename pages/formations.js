@@ -49,7 +49,7 @@ const Formations = (props) => {
               </div>
             </div>
             <div data-role="BurgerMenu" className="formations-burger-menu">
-              <svg viewBox="0 0 1024 1024" className="formations-burger-menu">
+              <svg viewBox="0 0 1024 1024" className="formations-burger-menu1">
                 <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
                 <path d="M810.667 426.667h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
                 <path d="M810.667 128h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
@@ -271,7 +271,7 @@ const Formations = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .formations-burger-menu {
+          .formations-burger-menu1 {
             width: 24px;
             height: 24px;
           }
