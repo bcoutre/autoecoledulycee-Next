@@ -241,10 +241,11 @@ const Accueil = (props) => {
           .accueil-container1 {
             width: 100%;
             height: 187px;
-            display: flex;
+            display: none;
             align-items: flex-start;
             margin-left: 0px;
             margin-right: 0px;
+            padding-right: var(--dl-space-space-unit);
             background-color: #a01d21;
           }
           .accueil-icon {
