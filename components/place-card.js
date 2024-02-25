@@ -7,7 +7,7 @@ const PlaceCard = (props) => {
     <>
       <div className="place-card-container">
         <img
-          alt={props.image_alt}
+          alt={props.imageAlt}
           src={props.image}
           className="place-card-image"
         />
@@ -69,7 +69,7 @@ const PlaceCard = (props) => {
 PlaceCard.defaultProps = {
   image:
     'https://images.unsplash.com/photo-1514924013411-cbf25faa35bb?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1000',
-  image_alt: 'image',
+  imageAlt: 'image',
   city: 'City Name',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
@@ -77,7 +77,7 @@ PlaceCard.defaultProps = {
 
 PlaceCard.propTypes = {
   image: PropTypes.string,
-  image_alt: PropTypes.string,
+  imageAlt: PropTypes.string,
   city: PropTypes.string,
   description: PropTypes.string,
 }

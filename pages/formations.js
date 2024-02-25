@@ -111,7 +111,7 @@ const Formations = (props) => {
             <PlaceCard
               city="B-Traditionnel"
               image="https://images.unsplash.com/photo-1532004252750-b411a84c8a41?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxkcml2ZXxlbnwwfHx8fDE2NzI2NjcxNjM&amp;ixlib=rb-4.0.3&amp;w=300"
-              description="Formez vous dès 17 ans et passez l'examen à partir de 18 ans."
+              description="Formez vous dès 16 ans et passez l'examen à partir de 17 ans."
             ></PlaceCard>
             <PlaceCard
               city="B Conduite Accompagnée - AAC"
