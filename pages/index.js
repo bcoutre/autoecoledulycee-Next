@@ -66,6 +66,14 @@ const Accueil = (props) => {
             <h2 className="Subheading accueil-subheading">
               Eglantine Conduite
             </h2>
+            <span className="accueil-text16">
+              Permis B, A, A1, A2, AM, Formation 125 cm3, et Post-Permis
+            </span>
+            <span className="accueil-text17">
+              <span>Nouveauté</span>
+              <br></br>
+              <span>Passerelle A2 vers A</span>
+            </span>
             <div className="accueil-container3">
               <div className="accueil-container4">
                 <Script
@@ -79,13 +87,10 @@ const Accueil = (props) => {
                 ></Script>
               </div>
             </div>
-            <span className="accueil-text16">
-              Permis B, A1, A2, AM, Formation 125 cm3, et Post-Permis
-            </span>
             <nav data-role="Header" className="accueil-navbar">
               <div className="accueil-right-side">
                 <div className="accueil-links-container">
-                  <span className="accueil-text17">Accueil</span>
+                  <span className="accueil-text21">Accueil</span>
                   <Link href="/formations">
                     <a className="accueil-link">Formations</a>
                   </Link>
@@ -139,7 +144,7 @@ const Accueil = (props) => {
                   </div>
                 </div>
                 <div className="accueil-follow-container">
-                  <span className="accueil-text20">Suivez nous</span>
+                  <span className="accueil-text24">Suivez nous</span>
                   <div className="accueil-icons-container">
                     <a
                       href="https://www.facebook.com/autoecolelycee"
@@ -162,7 +167,7 @@ const Accueil = (props) => {
         </div>
         <div id="main-section" className="accueil-main">
           <div className="accueil-container6">
-            <span className="accueil-text21">
+            <span className="accueil-text25">
               <span>3 Boulevard du lycée</span>
               <br></br>
               <a href="tel:+33 4 75 64 49 10">04 75 64 49 10</a>
@@ -199,7 +204,7 @@ const Accueil = (props) => {
         </div>
         <div className="accueil-footer">
           <div className="accueil-menu">
-            <span className="accueil-text43">
+            <span className="accueil-text47">
               <span>SARL Unipersonnelle Eglantine Conduite</span>
               <br></br>
               <span>3 Bvd Du Lycée 07000 Privas</span>
@@ -209,7 +214,7 @@ const Accueil = (props) => {
               <span>Agrément N° : E2200700020</span>
             </span>
             <div className="accueil-follow-container1">
-              <span className="accueil-text51">Suivez-nous</span>
+              <span className="accueil-text55">Suivez-nous</span>
               <div className="accueil-icons-container1">
                 <a
                   href="https://www.facebook.com/autoecolelycee"
@@ -290,6 +295,14 @@ const Accueil = (props) => {
             max-width: 700px;
             object-fit: cover;
           }
+          .accueil-text16 {
+            padding-top: var(--dl-space-space-doubleunit);
+            padding-bottom: var(--dl-space-space-doubleunit);
+          }
+          .accueil-text17 {
+            padding-top: var(--dl-space-space-doubleunit);
+            padding-bottom: var(--dl-space-space-doubleunit);
+          }
           .accueil-container3 {
             width: auto;
             height: auto;
@@ -297,10 +310,6 @@ const Accueil = (props) => {
           }
           .accueil-container4 {
             display: contents;
-          }
-          .accueil-text16 {
-            padding-top: var(--dl-space-space-doubleunit);
-            padding-bottom: var(--dl-space-space-doubleunit);
           }
           .accueil-navbar {
             width: 100%;
@@ -324,7 +333,7 @@ const Accueil = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .accueil-text17 {
+          .accueil-text21 {
             margin-right: var(--dl-space-space-doubleunit);
           }
           .accueil-link {
@@ -432,7 +441,7 @@ const Accueil = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .accueil-text20 {
+          .accueil-text24 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .accueil-icons-container {
@@ -467,7 +476,7 @@ const Accueil = (props) => {
             display: flex;
             align-items: flex-start;
           }
-          .accueil-text21 {
+          .accueil-text25 {
             color: var(--dl-color-gray-black);
           }
           .accueil-iframe {
@@ -499,7 +508,7 @@ const Accueil = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .accueil-text51 {
+          .accueil-text55 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .accueil-icons-container1 {
@@ -516,6 +525,31 @@ const Accueil = (props) => {
             fill: var(--dl-color-gray-white);
             width: 24px;
             height: 24px;
+          }
+          @media (max-width: 1200px) {
+            .accueil-content-container {
+              width: 869px;
+              position: relative;
+              margin-left: var(--dl-space-space-halfunit);
+            }
+            .accueil-text17 {
+              color: #a21d22;
+              font-size: 35px;
+              align-self: center;
+              text-align: center;
+              padding-top: 0px;
+              border-color: #a21d22;
+              border-width: 2px;
+              padding-left: var(--dl-space-space-doubleunit);
+              padding-right: var(--dl-space-space-doubleunit);
+              padding-bottom: 0px;
+            }
+            .accueil-footer {
+              padding-top: 0px;
+              padding-left: 0px;
+              padding-right: 0px;
+              padding-bottom: 0px;
+            }
           }
           @media (max-width: 991px) {
             .accueil-container1 {
@@ -590,15 +624,22 @@ const Accueil = (props) => {
             .accueil-text13 {
               font-size: 2.5rem;
             }
-            .accueil-container3 {
-              align-self: center;
-            }
             .accueil-text16 {
               font-style: normal;
               text-align: center;
               font-weight: 600;
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
+            }
+            .accueil-text17 {
+              font-style: normal;
+              text-align: center;
+              font-weight: 600;
+              padding-top: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
+            }
+            .accueil-container3 {
+              align-self: center;
             }
             .accueil-navbar {
               padding: var(--dl-space-space-halfunit);
@@ -629,16 +670,16 @@ const Accueil = (props) => {
               padding-bottom: var(--dl-space-space-doubleunit);
               justify-content: space-between;
             }
-            .accueil-text21 {
+            .accueil-text25 {
               text-align: center;
             }
             .accueil-menu {
               flex-direction: column;
             }
-            .accueil-text43 {
+            .accueil-text47 {
               text-align: center;
             }
-            .accueil-text51 {
+            .accueil-text55 {
               text-align: center;
             }
           }
@@ -699,13 +740,19 @@ const Accueil = (props) => {
               font-size: 1.3rem;
               text-align: center;
             }
-            .accueil-container3 {
-              align-self: center;
-              margin-bottom: 0px;
-            }
             .accueil-text16 {
               font-style: normal;
               font-weight: 600;
+            }
+            .accueil-text17 {
+              font-weight: 600;
+              padding-top: var(--dl-space-space-halfunit);
+              padding-left: var(--dl-space-space-halfunit);
+              padding-right: var(--dl-space-space-halfunit);
+            }
+            .accueil-container3 {
+              align-self: center;
+              margin-bottom: 0px;
             }
             .accueil-navbar {
               padding-top: 0px;
@@ -738,7 +785,7 @@ const Accueil = (props) => {
               flex-direction: row;
               justify-content: center;
             }
-            .accueil-text21 {
+            .accueil-text25 {
               color: var(--dl-color-gray-black);
               align-self: center;
             }

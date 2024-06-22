@@ -132,9 +132,9 @@ const Formations = (props) => {
           <h1>Formations moto</h1>
           <div className="formations-cards-container1">
             <PlaceCard
-              city="A1"
-              image="https://images.unsplash.com/photo-1565701926808-3b96e3801878?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ3fHxtb3RvY3ljbGV8ZW58MHx8fHwxNjcyNjY3NDY0&amp;ixlib=rb-4.0.3&amp;w=300"
-              description="Accessible dès  16 ans, permet de conduire des motos jusqu'à 125 cm3 (15 kW)."
+              city="A"
+              image="https://images.unsplash.com/photo-1611241443322-b5524914fe20?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fG1vdG9jeWNsZXxlbnwwfHx8fDE2NzI2Njc0MzI&amp;ixlib=rb-4.0.3&amp;w=300"
+              description="Sous réserve d'avoir plus de 20 ans et 2 ans de permis A2, cette formation de 7 heures, permet de conduire les motos de plus de 35kW."
             ></PlaceCard>
             <PlaceCard
               city="A2"
@@ -142,9 +142,9 @@ const Formations = (props) => {
               description="Accessible dès 18 ans (formation possible avant), pour conduire les motos d'une puissance n'excédant pas 35 kW  (47,5 ch), dont le rapport puissance/poids est inférieur ou égal à 0,2 kW par kg, ou de puissance maximale avant bridage, inférieure à 70 kW (95 ch)."
             ></PlaceCard>
             <PlaceCard
-              city="A - Prochainement"
-              image="https://images.unsplash.com/photo-1611241443322-b5524914fe20?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fG1vdG9jeWNsZXxlbnwwfHx8fDE2NzI2Njc0MzI&amp;ixlib=rb-4.0.3&amp;w=300"
-              description="Sous réserve d'avoir plus de 20 ans et 2 ans de permis A2, cette formation de 7 heures, permet de conduire les motos de plus de 35kW."
+              city="A1"
+              image="https://images.unsplash.com/photo-1565701926808-3b96e3801878?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ3fHxtb3RvY3ljbGV8ZW58MHx8fHwxNjcyNjY3NDY0&amp;ixlib=rb-4.0.3&amp;w=300"
+              description="Accessible dès  16 ans, permet de conduire des motos jusqu'à 125 cm3 (15 kW)."
             ></PlaceCard>
             <PlaceCard
               city="AM (ancien BSR)"
