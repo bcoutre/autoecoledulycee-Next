@@ -286,6 +286,7 @@ const Accueil = (props) => {
           }
           .accueil-content-container {
             display: flex;
+            align-self: center;
             align-items: center;
             flex-direction: column;
           }
@@ -300,8 +301,18 @@ const Accueil = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
           }
           .accueil-text17 {
-            padding-top: var(--dl-space-space-doubleunit);
-            padding-bottom: var(--dl-space-space-doubleunit);
+            color: rgb(162, 29, 34);
+            font-size: 35px;
+            align-self: center;
+            font-style: normal;
+            text-align: center;
+            font-weight: 600;
+            padding-top: var(--dl-space-space-halfunit);
+            border-color: #a21d22 (Gray);
+            border-width: 3px;
+            padding-left: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
           }
           .accueil-container3 {
             width: auto;
@@ -526,17 +537,32 @@ const Accueil = (props) => {
             width: 24px;
             height: 24px;
           }
+          @media (max-width: 1600px) {
+            .accueil-text17 {
+              color: rgb(162, 29, 34);
+              font-size: 35px;
+              align-self: center;
+              text-align: center;
+              padding-top: var(--dl-space-space-halfunit);
+              border-color: #a21d22;
+              border-width: 3px;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-halfunit);
+            }
+          }
           @media (max-width: 1200px) {
             .accueil-content-container {
               width: 869px;
               position: relative;
-              margin-left: var(--dl-space-space-halfunit);
             }
             .accueil-text17 {
-              color: #a21d22;
+              color: rgb(162, 29, 34);
               font-size: 35px;
               align-self: center;
+              font-style: normal;
               text-align: center;
+              font-weight: 600;
               padding-top: 0px;
               border-color: #a21d22;
               border-width: 2px;
@@ -575,6 +601,10 @@ const Accueil = (props) => {
             }
             .accueil-top-container {
               height: auto;
+            }
+            .accueil-text17 {
+              font-style: normal;
+              font-weight: 600;
             }
             .accueil-container3 {
               align-self: center;
@@ -746,9 +776,10 @@ const Accueil = (props) => {
             }
             .accueil-text17 {
               font-weight: 600;
-              padding-top: var(--dl-space-space-halfunit);
+              padding-top: 0px;
               padding-left: var(--dl-space-space-halfunit);
               padding-right: var(--dl-space-space-halfunit);
+              padding-bottom: 0px;
             }
             .accueil-container3 {
               align-self: center;
