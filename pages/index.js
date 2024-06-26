@@ -70,7 +70,7 @@ const Accueil = (props) => {
               Permis B, A, A1, A2, AM, Formation 125 cm3, et Post-Permis
             </span>
             <span className="accueil-text17">
-              <span>Nouveauté</span>
+              <span>Nouveau :</span>
               <br></br>
               <span>Passerelle A2 vers A</span>
             </span>
@@ -542,7 +542,9 @@ const Accueil = (props) => {
               color: rgb(162, 29, 34);
               font-size: 35px;
               align-self: center;
+              font-style: normal;
               text-align: center;
+              font-weight: 600;
               padding-top: var(--dl-space-space-halfunit);
               border-color: #a21d22;
               border-width: 3px;
@@ -665,8 +667,10 @@ const Accueil = (props) => {
               font-style: normal;
               text-align: center;
               font-weight: 600;
-              padding-top: var(--dl-space-space-unit);
-              padding-bottom: var(--dl-space-space-unit);
+              padding-top: var(--dl-space-space-halfunit);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-halfunit);
             }
             .accueil-container3 {
               align-self: center;
