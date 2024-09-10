@@ -19,37 +19,37 @@ const Formations = (props) => {
               src="/logo-400h.png"
               className="formations-image"
             />
-            <h1 className="formations-text">
+            <h1 className="formations-text10">
               <span>BIENVENUE A L&apos;AUTO-ECOLE DU LYCEE</span>
               <br></br>
             </h1>
             <h2 className="Subheading formations-subheading">
               Eglantine Conduite
             </h2>
-            <span className="formations-text03">
+            <span className="formations-text13">
               Permis B, A1, A2, AM, Formation 125 cm3, et Post-Permis
             </span>
           </div>
           <nav data-role="Header" className="formations-navbar">
-            <div className="formations-right-side">
-              <div className="formations-links-container">
+            <div className="formations-right-side1">
+              <div className="formations-links-container1">
                 <Link href="/">
-                  <a className="formations-link">Accueil</a>
+                  <a className="formations-link1">Accueil</a>
                 </Link>
-                <span className="formations-text04">Formations</span>
+                <span className="formations-text14">Formations</span>
                 <Link href="/preparation">
-                  <a className="formations-link1">Préparation Examen</a>
+                  <a className="formations-link2">Préparation Examen</a>
                 </Link>
                 <Link href="/apres-examen">
-                  <a className="formations-link2">
+                  <a className="formations-link3">
                     <span>Après l&apos;examen</span>
                     <br></br>
                   </a>
                 </Link>
               </div>
             </div>
-            <div data-role="BurgerMenu" className="formations-burger-menu">
-              <svg viewBox="0 0 1024 1024" className="formations-burger-menu1">
+            <div data-role="BurgerMenu" className="formations-burger-menu1">
+              <svg viewBox="0 0 1024 1024" className="formations-burger-menu2">
                 <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
                 <path d="M810.667 426.667h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
                 <path d="M810.667 128h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
@@ -62,40 +62,40 @@ const Formations = (props) => {
                     data-role="CloseMobileMenu"
                     className="formations-close-menu"
                   >
-                    <svg viewBox="0 0 1024 1024" className="formations-icon3">
+                    <svg viewBox="0 0 1024 1024" className="formations-icon4">
                       <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                     </svg>
                   </div>
                 </div>
-                <div className="formations-right-side1">
-                  <div className="formations-links-container1">
+                <div className="formations-right-side2">
+                  <div className="formations-links-container2">
                     <Link href="/">
-                      <a className="formations-link3">Accueil</a>
+                      <a className="formations-link4">Accueil</a>
                     </Link>
                     <Link href="/formations">
-                      <a className="formations-link4">Formations</a>
+                      <a className="formations-link5">Formations</a>
                     </Link>
                     <Link href="/preparation">
-                      <a className="formations-link5">Avant l&apos;examen</a>
+                      <a className="formations-link6">Avant l&apos;examen</a>
                     </Link>
                     <Link href="/apres-examen">
-                      <a className="formations-link6">Après l&apos;examen</a>
+                      <a className="formations-link7">Après l&apos;examen</a>
                     </Link>
                   </div>
                 </div>
               </div>
-              <div className="formations-follow-container">
-                <span className="formations-text07">Suivez nous</span>
-                <div className="formations-icons-container">
+              <div className="formations-follow-container1">
+                <span className="formations-text17">Suivez nous</span>
+                <div className="formations-icons-container1">
                   <a
                     href="https://www.facebook.com/autoecolelycee"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="formations-link7"
+                    className="formations-link8"
                   >
                     <svg
                       viewBox="0 0 602.2582857142856 1024"
-                      className="formations-icon5"
+                      className="formations-icon6"
                     >
                       <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
                     </svg>
@@ -107,7 +107,7 @@ const Formations = (props) => {
         </div>
         <div id="main-section" className="formations-main">
           <h1>Formations voiture</h1>
-          <div className="formations-cards-container">
+          <div className="formations-cards-container1">
             <PlaceCard
               city="B-Traditionnel"
               image="https://images.unsplash.com/photo-1532004252750-b411a84c8a41?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxkcml2ZXxlbnwwfHx8fDE2NzI2NjcxNjM&amp;ixlib=rb-4.0.3&amp;w=300"
@@ -130,7 +130,7 @@ const Formations = (props) => {
             ></PlaceCard>
           </div>
           <h1>Formations moto</h1>
-          <div className="formations-cards-container1">
+          <div className="formations-cards-container2">
             <PlaceCard
               city="A"
               image="https://images.unsplash.com/photo-1611241443322-b5524914fe20?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fG1vdG9jeWNsZXxlbnwwfHx8fDE2NzI2Njc0MzI&amp;ixlib=rb-4.0.3&amp;w=300"
@@ -169,18 +169,18 @@ const Formations = (props) => {
               <br></br>
               <span>Agrément N° : E2200700020</span>
             </span>
-            <div className="formations-follow-container1">
-              <span className="formations-text18">Suivez-nous</span>
-              <div className="formations-icons-container1">
+            <div className="formations-follow-container2">
+              <span className="formations-text28">Suivez-nous</span>
+              <div className="formations-icons-container2">
                 <a
                   href="https://www.facebook.com/autoecolelycee"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="formations-link8"
+                  className="formations-link9"
                 >
                   <svg
                     viewBox="0 0 602.2582857142856 1024"
-                    className="formations-icon7"
+                    className="formations-icon8"
                   >
                     <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
                   </svg>
@@ -218,7 +218,7 @@ const Formations = (props) => {
             max-width: 700px;
             object-fit: cover;
           }
-          .formations-text03 {
+          .formations-text13 {
             font-style: normal;
             font-weight: 600;
             padding-top: var(--dl-space-space-doubleunit);
@@ -238,40 +238,40 @@ const Formations = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
             justify-content: center;
           }
-          .formations-right-side {
+          .formations-right-side1 {
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
-          .formations-links-container {
+          .formations-links-container1 {
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
-          }
-          .formations-link {
-            margin-right: var(--dl-space-space-doubleunit);
-            text-decoration: none;
-          }
-          .formations-text04 {
-            margin-right: var(--dl-space-space-doubleunit);
           }
           .formations-link1 {
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
+          .formations-text14 {
+            margin-right: var(--dl-space-space-doubleunit);
+          }
           .formations-link2 {
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
-          .formations-burger-menu {
+          .formations-link3 {
+            margin-right: var(--dl-space-space-doubleunit);
+            text-decoration: none;
+          }
+          .formations-burger-menu1 {
             display: none;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
-          .formations-burger-menu1 {
+          .formations-burger-menu2 {
             width: 24px;
             height: 24px;
           }
@@ -310,27 +310,23 @@ const Formations = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .formations-icon3 {
+          .formations-icon4 {
             width: 24px;
             height: 24px;
           }
-          .formations-right-side1 {
+          .formations-right-side2 {
             width: 100%;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: space-between;
           }
-          .formations-links-container1 {
+          .formations-links-container2 {
             display: flex;
             align-items: flex-start;
             margin-bottom: 16px;
             flex-direction: column;
             justify-content: space-between;
-          }
-          .formations-link3 {
-            margin-bottom: 8px;
-            text-decoration: none;
           }
           .formations-link4 {
             margin-bottom: 8px;
@@ -341,28 +337,32 @@ const Formations = (props) => {
             text-decoration: none;
           }
           .formations-link6 {
+            margin-bottom: 8px;
             text-decoration: none;
           }
-          .formations-follow-container {
+          .formations-link7 {
+            text-decoration: none;
+          }
+          .formations-follow-container1 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: space-between;
           }
-          .formations-text07 {
+          .formations-text17 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .formations-icons-container {
+          .formations-icons-container1 {
             width: 100px;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
             justify-content: center;
           }
-          .formations-link7 {
+          .formations-link8 {
             display: contents;
           }
-          .formations-icon5 {
+          .formations-icon6 {
             width: 24px;
             height: 24px;
           }
@@ -377,7 +377,7 @@ const Formations = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
             justify-content: flex-start;
           }
-          .formations-cards-container {
+          .formations-cards-container1 {
             width: 100%;
             display: flex;
             grid-gap: var(--dl-space-space-doubleunit);
@@ -389,7 +389,7 @@ const Formations = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .formations-cards-container1 {
+          .formations-cards-container2 {
             width: 100%;
             display: flex;
             grid-gap: var(--dl-space-space-doubleunit);
@@ -419,36 +419,36 @@ const Formations = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .formations-follow-container1 {
+          .formations-follow-container2 {
             display: flex;
             align-items: center;
             margin-left: 50px;
             flex-direction: column;
             justify-content: space-between;
           }
-          .formations-text18 {
+          .formations-text28 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .formations-icons-container1 {
+          .formations-icons-container2 {
             width: 100px;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
             justify-content: center;
           }
-          .formations-link8 {
+          .formations-link9 {
             display: contents;
           }
-          .formations-icon7 {
+          .formations-icon8 {
             fill: var(--dl-color-gray-white);
             width: 24px;
             height: 24px;
           }
           @media (max-width: 991px) {
-            .formations-cards-container {
+            .formations-cards-container1 {
               justify-content: center;
             }
-            .formations-cards-container1 {
+            .formations-cards-container2 {
               justify-content: center;
             }
           }
@@ -456,10 +456,10 @@ const Formations = (props) => {
             .formations-content-container {
               align-items: center;
             }
-            .formations-text {
+            .formations-text10 {
               font-size: 2.5rem;
             }
-            .formations-text03 {
+            .formations-text13 {
               text-align: center;
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
@@ -470,10 +470,10 @@ const Formations = (props) => {
               padding-right: 0px;
               padding-bottom: 0px;
             }
-            .formations-right-side {
+            .formations-right-side1 {
               display: none;
             }
-            .formations-burger-menu {
+            .formations-burger-menu1 {
               display: flex;
             }
             .formations-main {
@@ -496,7 +496,7 @@ const Formations = (props) => {
               height: auto;
               max-width: 100%;
             }
-            .formations-text {
+            .formations-text10 {
               width: 100%;
               height: auto;
               font-size: 2rem;
@@ -507,7 +507,7 @@ const Formations = (props) => {
               font-size: 1.3rem;
               text-align: center;
             }
-            .formations-text03 {
+            .formations-text13 {
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
             }
@@ -524,11 +524,11 @@ const Formations = (props) => {
               padding-right: var(--dl-space-space-doubleunit);
               padding-bottom: var(--dl-space-space-doubleunit);
             }
-            .formations-cards-container {
+            .formations-cards-container1 {
               margin-top: 0px;
               margin-bottom: 0px;
             }
-            .formations-follow-container1 {
+            .formations-follow-container2 {
               margin-left: 0px;
             }
           }

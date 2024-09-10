@@ -17,39 +17,39 @@ const ApresExamen = (props) => {
               src="/logo-400h.png"
               className="apres-examen-image"
             />
-            <h1 className="apres-examen-text">
+            <h1 className="apres-examen-text10">
               <span>BIENVENUE A L&apos;AUTO-ECOLE DU LYCEE</span>
               <br></br>
             </h1>
             <h2 className="Subheading apres-examen-subheading">
               Eglantine Conduite
             </h2>
-            <span className="apres-examen-text03">
+            <span className="apres-examen-text13">
               Permis B, A1, A2, AM, Formation 125 cm3, et Post-Permis
             </span>
           </div>
           <nav data-role="Header" className="apres-examen-navbar">
-            <div className="apres-examen-right-side">
-              <div className="apres-examen-links-container">
+            <div className="apres-examen-right-side1">
+              <div className="apres-examen-links-container1">
                 <Link href="/">
-                  <a className="apres-examen-link">Accueil</a>
+                  <a className="apres-examen-link10">Accueil</a>
                 </Link>
                 <Link href="/formations">
-                  <a className="apres-examen-link01">Formations</a>
+                  <a className="apres-examen-link11">Formations</a>
                 </Link>
                 <Link href="/preparation">
-                  <a className="apres-examen-link02">Préparation Examen</a>
+                  <a className="apres-examen-link12">Préparation Examen</a>
                 </Link>
-                <span className="apres-examen-text04">
+                <span className="apres-examen-text14">
                   <span>Après l&apos;examen</span>
                   <br></br>
                 </span>
               </div>
             </div>
-            <div data-role="BurgerMenu" className="apres-examen-burger-menu">
+            <div data-role="BurgerMenu" className="apres-examen-burger-menu1">
               <svg
                 viewBox="0 0 1024 1024"
-                className="apres-examen-burger-menu1"
+                className="apres-examen-burger-menu2"
               >
                 <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
                 <path d="M810.667 426.667h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
@@ -63,40 +63,40 @@ const ApresExamen = (props) => {
                     data-role="CloseMobileMenu"
                     className="apres-examen-close-menu"
                   >
-                    <svg viewBox="0 0 1024 1024" className="apres-examen-icon3">
+                    <svg viewBox="0 0 1024 1024" className="apres-examen-icon4">
                       <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                     </svg>
                   </div>
                 </div>
-                <div className="apres-examen-right-side1">
-                  <div className="apres-examen-links-container1">
+                <div className="apres-examen-right-side2">
+                  <div className="apres-examen-links-container2">
                     <Link href="/">
-                      <a className="apres-examen-link03">Accueil</a>
+                      <a className="apres-examen-link13">Accueil</a>
                     </Link>
                     <Link href="/formations">
-                      <a className="apres-examen-link04">Formations</a>
+                      <a className="apres-examen-link14">Formations</a>
                     </Link>
                     <Link href="/preparation">
-                      <a className="apres-examen-link05">Avant l&apos;examen</a>
+                      <a className="apres-examen-link15">Avant l&apos;examen</a>
                     </Link>
                     <Link href="/apres-examen">
-                      <a className="apres-examen-link06">Après l&apos;examen</a>
+                      <a className="apres-examen-link16">Après l&apos;examen</a>
                     </Link>
                   </div>
                 </div>
               </div>
-              <div className="apres-examen-follow-container">
-                <span className="apres-examen-text07">Suivez nous</span>
+              <div className="apres-examen-follow-container1">
+                <span className="apres-examen-text17">Suivez nous</span>
                 <a
                   href="https://www.facebook.com/autoecolelycee"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="apres-examen-link07"
+                  className="apres-examen-link17"
                 >
-                  <div className="apres-examen-icons-container">
+                  <div className="apres-examen-icons-container1">
                     <svg
                       viewBox="0 0 602.2582857142856 1024"
-                      className="apres-examen-icon5"
+                      className="apres-examen-icon6"
                     >
                       <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
                     </svg>
@@ -108,7 +108,7 @@ const ApresExamen = (props) => {
         </div>
         <div id="main-section" className="apres-examen-main">
           <h1>Après l&apos;examen</h1>
-          <span className="apres-examen-text09">
+          <span className="apres-examen-text19">
             <span>
               Votre examen est maintenant terminé, vous pourrez voir vos
               résultas 48 ou 72 heures après, en suivant
@@ -122,7 +122,7 @@ const ApresExamen = (props) => {
               href="https://www.securite-routiere.gouv.fr/resultats-du-permis-de-conduire#/step-connexion"
               target="_blank"
               rel="noreferrer noopener"
-              className="apres-examen-link08"
+              className="apres-examen-link18"
             >
               ce lien
             </a>
@@ -145,7 +145,7 @@ const ApresExamen = (props) => {
               href="https://permisdeconduire.ants.gouv.fr/"
               target="_blank"
               rel="noreferrer noopener"
-              className="apres-examen-link09"
+              className="apres-examen-link19"
             >
               ce lien
             </a>
@@ -168,18 +168,18 @@ const ApresExamen = (props) => {
               <br></br>
               <span>Agrément N° : E2200700020</span>
             </span>
-            <div className="apres-examen-follow-container1">
-              <span className="apres-examen-text27">Suivez-nous</span>
-              <div className="apres-examen-icons-container1">
+            <div className="apres-examen-follow-container2">
+              <span className="apres-examen-text37">Suivez-nous</span>
+              <div className="apres-examen-icons-container2">
                 <a
                   href="https://www.facebook.com/autoecolelycee"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="apres-examen-link10"
+                  className="apres-examen-link20"
                 >
                   <svg
                     viewBox="0 0 602.2582857142856 1024"
-                    className="apres-examen-icon7"
+                    className="apres-examen-icon8"
                   >
                     <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
                   </svg>
@@ -217,7 +217,7 @@ const ApresExamen = (props) => {
             max-width: 700px;
             object-fit: cover;
           }
-          .apres-examen-text03 {
+          .apres-examen-text13 {
             padding-top: var(--dl-space-space-doubleunit);
             padding-bottom: var(--dl-space-space-doubleunit);
           }
@@ -231,40 +231,40 @@ const ApresExamen = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .apres-examen-right-side {
+          .apres-examen-right-side1 {
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
-          .apres-examen-links-container {
+          .apres-examen-links-container1 {
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
-          .apres-examen-link {
+          .apres-examen-link10 {
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
-          .apres-examen-link01 {
+          .apres-examen-link11 {
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
-          .apres-examen-link02 {
+          .apres-examen-link12 {
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
-          .apres-examen-text04 {
+          .apres-examen-text14 {
             margin-right: var(--dl-space-space-doubleunit);
           }
-          .apres-examen-burger-menu {
+          .apres-examen-burger-menu1 {
             display: none;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
-          .apres-examen-burger-menu1 {
+          .apres-examen-burger-menu2 {
             width: 24px;
             height: 24px;
           }
@@ -303,52 +303,52 @@ const ApresExamen = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .apres-examen-icon3 {
+          .apres-examen-icon4 {
             width: 24px;
             height: 24px;
           }
-          .apres-examen-right-side1 {
+          .apres-examen-right-side2 {
             width: 100%;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: space-between;
           }
-          .apres-examen-links-container1 {
+          .apres-examen-links-container2 {
             display: flex;
             align-items: flex-start;
             margin-bottom: 16px;
             flex-direction: column;
             justify-content: space-between;
           }
-          .apres-examen-link03 {
+          .apres-examen-link13 {
             margin-bottom: 8px;
             text-decoration: none;
           }
-          .apres-examen-link04 {
+          .apres-examen-link14 {
             margin-bottom: 8px;
             text-decoration: none;
           }
-          .apres-examen-link05 {
+          .apres-examen-link15 {
             margin-bottom: 8px;
             text-decoration: none;
           }
-          .apres-examen-link06 {
+          .apres-examen-link16 {
             text-decoration: none;
           }
-          .apres-examen-follow-container {
+          .apres-examen-follow-container1 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: space-between;
           }
-          .apres-examen-text07 {
+          .apres-examen-text17 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .apres-examen-link07 {
+          .apres-examen-link17 {
             display: contents;
           }
-          .apres-examen-icons-container {
+          .apres-examen-icons-container1 {
             width: 100px;
             display: flex;
             align-items: flex-start;
@@ -356,7 +356,7 @@ const ApresExamen = (props) => {
             justify-content: center;
             text-decoration: none;
           }
-          .apres-examen-icon5 {
+          .apres-examen-icon6 {
             width: 24px;
             height: 24px;
           }
@@ -371,14 +371,14 @@ const ApresExamen = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
             justify-content: flex-start;
           }
-          .apres-examen-text09 {
+          .apres-examen-text19 {
             color: var(--dl-color-gray-black);
             text-align: justify;
           }
-          .apres-examen-link08 {
+          .apres-examen-link18 {
             text-decoration: underline;
           }
-          .apres-examen-link09 {
+          .apres-examen-link19 {
             text-decoration: underline;
           }
           .apres-examen-footer {
@@ -399,27 +399,27 @@ const ApresExamen = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .apres-examen-follow-container1 {
+          .apres-examen-follow-container2 {
             display: flex;
             align-items: center;
             margin-left: 50px;
             flex-direction: column;
             justify-content: space-between;
           }
-          .apres-examen-text27 {
+          .apres-examen-text37 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .apres-examen-icons-container1 {
+          .apres-examen-icons-container2 {
             width: 100px;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
             justify-content: center;
           }
-          .apres-examen-link10 {
+          .apres-examen-link20 {
             display: contents;
           }
-          .apres-examen-icon7 {
+          .apres-examen-icon8 {
             fill: var(--dl-color-gray-white);
             width: 24px;
             height: 24px;
@@ -429,13 +429,13 @@ const ApresExamen = (props) => {
               width: auto;
               height: auto;
             }
-            .apres-examen-burger-menu {
+            .apres-examen-burger-menu1 {
               display: none;
             }
             .apres-examen-mobile-menu {
               display: none;
             }
-            .apres-examen-text09 {
+            .apres-examen-text19 {
               color: var(--dl-color-gray-black);
               text-align: justify;
             }
@@ -448,10 +448,10 @@ const ApresExamen = (props) => {
             .apres-examen-content-container {
               align-items: center;
             }
-            .apres-examen-text {
+            .apres-examen-text10 {
               font-size: 2.5rem;
             }
-            .apres-examen-text03 {
+            .apres-examen-text13 {
               font-style: normal;
               text-align: center;
               font-weight: 600;
@@ -466,10 +466,10 @@ const ApresExamen = (props) => {
               padding-right: 0px;
               padding-bottom: 0px;
             }
-            .apres-examen-right-side {
+            .apres-examen-right-side1 {
               display: none;
             }
-            .apres-examen-burger-menu {
+            .apres-examen-burger-menu1 {
               display: flex;
             }
             .apres-examen-main {
@@ -478,7 +478,7 @@ const ApresExamen = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-doubleunit);
             }
-            .apres-examen-text09 {
+            .apres-examen-text19 {
               text-align: justify;
             }
             .apres-examen-menu {
@@ -499,7 +499,7 @@ const ApresExamen = (props) => {
               height: auto;
               max-width: 100%;
             }
-            .apres-examen-text {
+            .apres-examen-text10 {
               width: 100%;
               height: auto;
               font-size: 2rem;
@@ -510,7 +510,7 @@ const ApresExamen = (props) => {
               font-size: 1.3rem;
               text-align: center;
             }
-            .apres-examen-text03 {
+            .apres-examen-text13 {
               font-style: normal;
               font-weight: 600;
             }
@@ -521,18 +521,18 @@ const ApresExamen = (props) => {
               padding-right: 0px;
               padding-bottom: 0px;
             }
-            .apres-examen-burger-menu {
+            .apres-examen-burger-menu1 {
               z-index: 200;
             }
             .apres-examen-main {
               padding-top: var(--dl-space-space-doubleunit);
               padding-bottom: var(--dl-space-space-doubleunit);
             }
-            .apres-examen-text09 {
+            .apres-examen-text19 {
               text-align: justify;
               margin-bottom: 0px;
             }
-            .apres-examen-follow-container1 {
+            .apres-examen-follow-container2 {
               margin-left: 0px;
             }
           }

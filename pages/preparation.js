@@ -5,7 +5,7 @@ import Head from 'next/head'
 const Preparation = (props) => {
   return (
     <>
-      <div className="preparation-container">
+      <div className="preparation-container1">
         <Head>
           <title>Preparation - autoecoledulycee</title>
           <meta property="og:title" content="Preparation - autoecoledulycee" />
@@ -17,37 +17,37 @@ const Preparation = (props) => {
               src="/logo-400h.png"
               className="preparation-image"
             />
-            <h1 className="preparation-text">
+            <h1 className="preparation-text10">
               <span>BIENVENUE A L&apos;AUTO-ECOLE DU LYCEE</span>
               <br></br>
             </h1>
             <h2 className="Subheading preparation-subheading">
               Eglantine Conduite
             </h2>
-            <span className="preparation-text03">
+            <span className="preparation-text13">
               Permis B, A1, A2, AM, Formation 125 cm3, et Post-Permis
             </span>
           </div>
           <nav data-role="Header" className="preparation-navbar">
-            <div className="preparation-right-side">
-              <div className="preparation-links-container">
+            <div className="preparation-right-side1">
+              <div className="preparation-links-container1">
                 <Link href="/">
-                  <a className="preparation-link">Accueil</a>
+                  <a className="preparation-link1">Accueil</a>
                 </Link>
                 <Link href="/formations">
-                  <a className="preparation-link1">Formations</a>
+                  <a className="preparation-link2">Formations</a>
                 </Link>
-                <span className="preparation-text04">Préparation Examen</span>
+                <span className="preparation-text14">Préparation Examen</span>
                 <Link href="/apres-examen">
-                  <a className="preparation-link2">
+                  <a className="preparation-link3">
                     <span>Après l&apos;examen</span>
                     <br></br>
                   </a>
                 </Link>
               </div>
             </div>
-            <div data-role="BurgerMenu" className="preparation-burger-menu">
-              <svg viewBox="0 0 1024 1024" className="preparation-burger-menu1">
+            <div data-role="BurgerMenu" className="preparation-burger-menu1">
+              <svg viewBox="0 0 1024 1024" className="preparation-burger-menu2">
                 <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
                 <path d="M810.667 426.667h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
                 <path d="M810.667 128h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
@@ -60,40 +60,40 @@ const Preparation = (props) => {
                     data-role="CloseMobileMenu"
                     className="preparation-close-menu"
                   >
-                    <svg viewBox="0 0 1024 1024" className="preparation-icon3">
+                    <svg viewBox="0 0 1024 1024" className="preparation-icon4">
                       <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                     </svg>
                   </div>
                 </div>
-                <div className="preparation-right-side1">
-                  <div className="preparation-links-container1">
+                <div className="preparation-right-side2">
+                  <div className="preparation-links-container2">
                     <Link href="/">
-                      <a className="preparation-link3">Accueil</a>
+                      <a className="preparation-link4">Accueil</a>
                     </Link>
                     <Link href="/formations">
-                      <a className="preparation-link4">Formations</a>
+                      <a className="preparation-link5">Formations</a>
                     </Link>
                     <Link href="/preparation">
-                      <a className="preparation-link5">Avant l&apos;examen</a>
+                      <a className="preparation-link6">Avant l&apos;examen</a>
                     </Link>
                     <Link href="/apres-examen">
-                      <a className="preparation-link6">Après l&apos;examen</a>
+                      <a className="preparation-link7">Après l&apos;examen</a>
                     </Link>
                   </div>
                 </div>
               </div>
-              <div className="preparation-follow-container">
-                <span className="preparation-text07">Suivez nous</span>
+              <div className="preparation-follow-container1">
+                <span className="preparation-text17">Suivez nous</span>
                 <a
                   href="https://www.facebook.com/autoecolelycee"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="preparation-link7"
+                  className="preparation-link8"
                 >
-                  <div className="preparation-icons-container">
+                  <div className="preparation-icons-container1">
                     <svg
                       viewBox="0 0 602.2582857142856 1024"
-                      className="preparation-icon5"
+                      className="preparation-icon6"
                     >
                       <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
                     </svg>
@@ -105,7 +105,7 @@ const Preparation = (props) => {
         </div>
         <div id="main-section" className="preparation-main">
           <h1>Préparation à l&apos;examen</h1>
-          <span className="preparation-text09">
+          <span className="preparation-text19">
             <span>
               D&apos;une durée de 30 minutes, l&apos;examen permet à un
               inspecteur de valider un niveau suffisant. 
@@ -117,15 +117,15 @@ const Preparation = (props) => {
               deux vidéos suivantes : 
             </span>
           </span>
-          <div className="preparation-container1">
+          <div className="preparation-container2">
             <iframe
               src="https://www.youtube.com/embed/JSRctG-efQQ"
-              className="preparation-iframe"
+              className="preparation-iframe1"
             ></iframe>
             <iframe
               src="https://www.youtube.com/embed/EZXLKHMjJOY"
               allowFullScreen
-              className="preparation-iframe1"
+              className="preparation-iframe2"
             ></iframe>
           </div>
         </div>
@@ -140,18 +140,18 @@ const Preparation = (props) => {
               <br></br>
               <span>Agrément N° : E2200700020</span>
             </span>
-            <div className="preparation-follow-container1">
-              <span className="preparation-text21">Suivez-nous</span>
-              <div className="preparation-icons-container1">
+            <div className="preparation-follow-container2">
+              <span className="preparation-text31">Suivez-nous</span>
+              <div className="preparation-icons-container2">
                 <a
                   href="https://www.facebook.com/autoecolelycee"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="preparation-link8"
+                  className="preparation-link9"
                 >
                   <svg
                     viewBox="0 0 602.2582857142856 1024"
-                    className="preparation-icon7"
+                    className="preparation-icon8"
                   >
                     <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
                   </svg>
@@ -163,7 +163,7 @@ const Preparation = (props) => {
       </div>
       <style jsx>
         {`
-          .preparation-container {
+          .preparation-container1 {
             width: 100%;
             height: auto;
             display: flex;
@@ -189,7 +189,7 @@ const Preparation = (props) => {
             max-width: 700px;
             object-fit: cover;
           }
-          .preparation-text03 {
+          .preparation-text13 {
             font-style: normal;
             font-weight: 600;
             padding-top: var(--dl-space-space-doubleunit);
@@ -205,27 +205,19 @@ const Preparation = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .preparation-right-side {
+          .preparation-right-side1 {
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
-          .preparation-links-container {
+          .preparation-links-container1 {
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
-          }
-          .preparation-link {
-            margin-right: var(--dl-space-space-doubleunit);
-            text-decoration: none;
           }
           .preparation-link1 {
-            margin-right: var(--dl-space-space-doubleunit);
-            text-decoration: none;
-          }
-          .preparation-text04 {
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
@@ -233,13 +225,21 @@ const Preparation = (props) => {
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
-          .preparation-burger-menu {
+          .preparation-text14 {
+            margin-right: var(--dl-space-space-doubleunit);
+            text-decoration: none;
+          }
+          .preparation-link3 {
+            margin-right: var(--dl-space-space-doubleunit);
+            text-decoration: none;
+          }
+          .preparation-burger-menu1 {
             display: none;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
-          .preparation-burger-menu1 {
+          .preparation-burger-menu2 {
             width: 24px;
             height: 24px;
           }
@@ -278,27 +278,23 @@ const Preparation = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .preparation-icon3 {
+          .preparation-icon4 {
             width: 24px;
             height: 24px;
           }
-          .preparation-right-side1 {
+          .preparation-right-side2 {
             width: 100%;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: space-between;
           }
-          .preparation-links-container1 {
+          .preparation-links-container2 {
             display: flex;
             align-items: flex-start;
             margin-bottom: 16px;
             flex-direction: column;
             justify-content: space-between;
-          }
-          .preparation-link3 {
-            margin-bottom: 8px;
-            text-decoration: none;
           }
           .preparation-link4 {
             margin-bottom: 8px;
@@ -309,21 +305,25 @@ const Preparation = (props) => {
             text-decoration: none;
           }
           .preparation-link6 {
+            margin-bottom: 8px;
             text-decoration: none;
           }
-          .preparation-follow-container {
+          .preparation-link7 {
+            text-decoration: none;
+          }
+          .preparation-follow-container1 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: space-between;
           }
-          .preparation-text07 {
+          .preparation-text17 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .preparation-link7 {
+          .preparation-link8 {
             display: contents;
           }
-          .preparation-icons-container {
+          .preparation-icons-container1 {
             width: 100px;
             display: flex;
             align-items: flex-start;
@@ -331,7 +331,7 @@ const Preparation = (props) => {
             justify-content: center;
             text-decoration: none;
           }
-          .preparation-icon5 {
+          .preparation-icon6 {
             width: 24px;
             height: 24px;
           }
@@ -343,20 +343,20 @@ const Preparation = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .preparation-text09 {
+          .preparation-text19 {
             color: var(--dl-color-gray-500);
           }
-          .preparation-container1 {
+          .preparation-container2 {
             flex: 0 0 auto;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .preparation-iframe {
+          .preparation-iframe1 {
             width: 320px;
             height: 200px;
           }
-          .preparation-iframe1 {
+          .preparation-iframe2 {
             width: 320px;
             height: 200px;
           }
@@ -378,27 +378,27 @@ const Preparation = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .preparation-follow-container1 {
+          .preparation-follow-container2 {
             display: flex;
             align-items: center;
             margin-left: 50px;
             flex-direction: column;
             justify-content: space-between;
           }
-          .preparation-text21 {
+          .preparation-text31 {
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .preparation-icons-container1 {
+          .preparation-icons-container2 {
             width: 100px;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
             justify-content: center;
           }
-          .preparation-link8 {
+          .preparation-link9 {
             display: contents;
           }
-          .preparation-icon7 {
+          .preparation-icon8 {
             fill: var(--dl-color-gray-white);
             width: 24px;
             height: 24px;
@@ -407,7 +407,7 @@ const Preparation = (props) => {
             .preparation-mobile-menu {
               display: none;
             }
-            .preparation-text09 {
+            .preparation-text19 {
               color: var(--dl-color-gray-black);
             }
           }
@@ -419,10 +419,10 @@ const Preparation = (props) => {
               align-items: center;
               padding-bottom: 0px;
             }
-            .preparation-text {
+            .preparation-text10 {
               font-size: 2.5rem;
             }
-            .preparation-text03 {
+            .preparation-text13 {
               text-align: center;
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
@@ -431,10 +431,10 @@ const Preparation = (props) => {
               width: auto;
               padding: 0px;
             }
-            .preparation-right-side {
+            .preparation-right-side1 {
               display: none;
             }
-            .preparation-burger-menu {
+            .preparation-burger-menu1 {
               display: flex;
             }
             .preparation-main {
@@ -445,7 +445,7 @@ const Preparation = (props) => {
               flex-direction: column;
               padding-bottom: var(--dl-space-space-doubleunit);
             }
-            .preparation-text09 {
+            .preparation-text19 {
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
             }
@@ -467,7 +467,7 @@ const Preparation = (props) => {
               height: auto;
               max-width: 100%;
             }
-            .preparation-text {
+            .preparation-text10 {
               width: 100%;
               height: auto;
               font-size: 2rem;
@@ -488,7 +488,7 @@ const Preparation = (props) => {
             .preparation-main {
               padding: var(--dl-space-space-doubleunit);
             }
-            .preparation-follow-container1 {
+            .preparation-follow-container2 {
               margin-left: 0px;
             }
           }

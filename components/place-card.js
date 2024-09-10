@@ -5,20 +5,20 @@ import PropTypes from 'prop-types'
 const PlaceCard = (props) => {
   return (
     <>
-      <div className="place-card-container">
+      <div className="place-card-container1">
         <img
           alt={props.imageAlt}
           src={props.image}
           className="place-card-image"
         />
-        <div className="place-card-container1">
-          <span className="place-card-text">{props.city}</span>
-          <span className="place-card-text1">{props.description}</span>
+        <div className="place-card-container2">
+          <span className="place-card-text1">{props.city}</span>
+          <span className="place-card-text2">{props.description}</span>
         </div>
       </div>
       <style jsx>
         {`
-          .place-card-container {
+          .place-card-container1 {
             width: 300px;
             display: flex;
             align-items: center;
@@ -31,32 +31,32 @@ const PlaceCard = (props) => {
             border-top-left-radius: var(--dl-radius-radius-radius8);
             border-top-right-radius: var(--dl-radius-radius-radius8);
           }
-          .place-card-container1 {
+          .place-card-container2 {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-unit);
             align-items: center;
             flex-direction: column;
           }
-          .place-card-text {
+          .place-card-text1 {
             font-size: 20px;
             font-style: normal;
             font-weight: 700;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .place-card-text1 {
+          .place-card-text2 {
             font-size: 12px;
             max-width: 250px;
             text-align: justify;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
           @media (max-width: 767px) {
-            .place-card-container {
+            .place-card-container1 {
               width: 200px;
             }
           }
           @media (max-width: 479px) {
-            .place-card-container {
+            .place-card-container1 {
               width: 300px;
             }
           }
